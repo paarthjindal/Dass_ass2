@@ -1,0 +1,23 @@
+pylint gobblet.py
+************* Module gobblet
+gobblet.py:346:0: C0301: Line too long (128/100) (line-too-long)
+gobblet.py:105:0: R0902: Too many instance attributes (12/7) (too-many-instance-attributes)
+gobblet.py:191:8: W0612: Unused variable 'current_player_color' (unused-variable)
+gobblet.py:222:61: W0613: Unused argument 'to_row' (unused-argument)
+gobblet.py:222:69: W0613: Unused argument 'to_col' (unused-argument)
+gobblet.py:415:4: R0914: Too many local variables (17/15) (too-many-locals)
+gobblet.py:433:8: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+gobblet.py:478:20: W0612: Unused variable 'x' (unused-variable)
+gobblet.py:479:20: W0612: Unused variable 'y' (unused-variable)
+gobblet.py:503:4: R0914: Too many local variables (26/15) (too-many-locals)
+gobblet.py:635:61: E0606: Possibly using variable 'text_color' before assignment (possibly-used-before-assignment)
+gobblet.py:503:4: R0915: Too many statements (74/50) (too-many-statements)
+gobblet.py:582:12: W0612: Unused variable 'piece_offset' (unused-variable)
+gobblet.py:10:0: W0611: Unused import os (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.48/10 (previous run: 9.11/10, +0.37)
+
+
+
+i have added docstring for each and every function in the program 

@@ -1,0 +1,49 @@
+{
+  "166bddbe-1d61-48a2-91a1-e70de8ef3a6d": {
+    "user_id": "166bddbe-1d61-48a2-91a1-e70de8ef3a6d",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "role": "Customer",
+    "address": "789 Elm St",
+    "order_history": [
+      "order-1741184020-3354",
+      "order-1741191647-7072",
+      "order-1741191751-3543"
+    ]
+  },
+  "81f09406-0e4c-4f8f-af95-df197285d72a": {
+    "user_id": "81f09406-0e4c-4f8f-af95-df197285d72a",
+    "name": "Mike Smith",
+    "email": "mike@delivery.com",
+    "role": "Delivery Agent",
+    "available": true,
+    "current_order": null,
+    "completed_deliveries": [
+      "order-1741184020-3354",
+      "order-1741191647-7072"
+    ]
+  },
+  "53abb8d8-a5b5-4615-9f3b-8a416d6e1439": {
+    "user_id": "53abb8d8-a5b5-4615-9f3b-8a416d6e1439",
+    "name": "Sarah Cook",
+    "email": "sarah@restaurant.com",
+    "role": "Restaurant Staff"
+  },
+  "8189e938-adf7-4fe4-ad55-d8d0f67eb9e4": {
+    "user_id": "8189e938-adf7-4fe4-ad55-d8d0f67eb9e4",
+    "name": "Alex Manager",
+    "email": "alex@company.com",
+    "role": "Manager"
+  },
+  "9d8a59c8-b570-49d4-b808-a3d735a37078": {
+    "user_id": "9d8a59c8-b570-49d4-b808-a3d735a37078",
+    "name": "Paarth",
+    "email": "paarth@gmail.com",
+    "role": "Delivery Agent",
+    "available": true,
+    "current_order": null,
+    "completed_deliveries": [
+      "order-1741191751-3543"
+    ]
+  }
+}

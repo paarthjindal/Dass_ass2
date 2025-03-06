@@ -1,0 +1,12 @@
+ pylint gobblet.py
+************* Module gobblet
+gobblet.py:104:0: R0902: Too many instance attributes (12/7) (too-many-instance-attributes)
+gobblet.py:221:61: W0613: Unused argument 'to_row' (unused-argument)
+gobblet.py:221:69: W0613: Unused argument 'to_col' (unused-argument)
+gobblet.py:500:4: R0914: Too many local variables (16/15) (too-many-locals)
+
+------------------------------------------------------------------
+Your code has been rated at 9.88/10 (previous run: 9.79/10, +0.09)
+
+removed further too long issues
+now to_row and to_col cant be changed , else full code needs to be changed

@@ -86,7 +86,6 @@ class Piece:
             y (int): Y-coordinate for the center of the piece
             transparent (bool): Whether to draw the piece with transparency
         """
-
         color = self.color
         if transparent:
             if self.color == RED:
@@ -121,11 +120,14 @@ class GobbletJr:
         self.valid_moves = []
         self.last_move = None
         self.current_state = GameState.PLAYER_RED
+        # Initialize board and reserve pieces
+        self.board = None
+        self.red_reserve = None
+        self.blue_reserve = None
         self.reset_game()
 
     def reset_game(self):
         """Reset the game to its initial state."""
-
         # Initialize game state
         self.current_state = GameState.PLAYER_RED
 
@@ -135,7 +137,7 @@ class GobbletJr:
         # Initialize pieces: 2 of each size (0=small, 1=medium, 2=large) for each player
         # Create in order large to small for better organization
         self.red_reserve = [Piece(RED, 2), Piece(RED, 2), Piece(RED, 1),
-                             Piece(RED, 1), Piece(RED, 0), Piece(RED, 0)]
+                            Piece(RED, 1), Piece(RED, 0), Piece(RED, 0)]
         self.blue_reserve = [Piece(BLUE, 2), Piece(BLUE, 2), Piece(BLUE, 1),
                              Piece(BLUE, 1), Piece(BLUE, 0), Piece(BLUE, 0)]
 
@@ -187,7 +189,8 @@ class GobbletJr:
             list: List of (row, col) tuples representing valid moves
         """
         valid_moves = []
-        # current_player_color = RED if self.current_state == GameState.PLAYER_RED else BLUE
+        # For determining valid moves, we only need the piece's color
+        # No need to use current_player_color variable here
 
         # If the piece is in reserve, it can be placed on any valid square
         if piece.position is None:
@@ -233,8 +236,7 @@ class GobbletJr:
         """
         # Create a copy of the board to simulate the move
         temp_board = [[stack.copy() for stack in row] for row in self.board]
-        to_col=3
-        to_row=1
+
         # Remove the piece from its current position if it's on the board
         if from_pos:
             from_row, from_col = from_pos
@@ -343,13 +345,7 @@ class GobbletJr:
             self.current_state = GameState.DRAW
         else:
             # Switch players
-            if self.current_state == GameState.PLAYER_RED :
-                self.current_state = GameState.PLAYER_BLUE
-            else:
-                self.current_state = GameState.PLAYER_RED
-
-
-
+            self.current_state = GameState.PLAYER_BLUE if self.current_state == GameState.PLAYER_RED else GameState.PLAYER_RED
 
         return True
 
@@ -403,7 +399,6 @@ class GobbletJr:
 
     def handle_events(self):
         """Handle pygame events (quit, key presses, mouse clicks)."""
-
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
@@ -609,10 +604,7 @@ class GobbletJr:
 
         # Position differs based on player color
         is_red = color == RED
-        if is_red:
-            base_x=RESERVE_OFFSET_X
-        else:
-            base_x=SCREEN_WIDTH - RESERVE_OFFSET_X - RESERVE_SLOT_WIDTH
+        base_x = RESERVE_OFFSET_X if is_red else SCREEN_WIDTH - RESERVE_OFFSET_X - RESERVE_SLOT_WIDTH
 
         # Draw slots for each size (L, M, S)
         for i, size in enumerate([2, 1, 0]):

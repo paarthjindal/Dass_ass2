@@ -1,0 +1,51 @@
+ pylint gobblet.py
+************* Module gobblet
+gobblet.py:277:0: C0301: Line too long (128/100) (line-too-long)
+gobblet.py:79:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:94:0: C0115: Missing class docstring (missing-class-docstring)
+gobblet.py:94:0: R0902: Too many instance attributes (12/7) (too-many-instance-attributes)
+gobblet.py:107:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:125:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:130:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:142:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:144:8: W0612: Unused variable 'current_player_color' (unused-variable)
+gobblet.py:175:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:175:4: R0912: Too many branches (24/12) (too-many-branches)
+gobblet.py:175:61: W0613: Unused argument 'to_row' (unused-argument)
+gobblet.py:175:69: W0613: Unused argument 'to_col' (unused-argument)
+gobblet.py:243:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:281:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:306:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:314:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:329:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:329:4: R0914: Too many local variables (18/15) (too-many-locals)
+gobblet.py:341:8: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+gobblet.py:329:4: R0912: Too many branches (20/12) (too-many-branches)
+gobblet.py:343:20: W0612: Unused variable 'j' (unused-variable)
+gobblet.py:386:20: W0612: Unused variable 'x' (unused-variable)
+gobblet.py:387:20: W0612: Unused variable 'y' (unused-variable)
+gobblet.py:411:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:411:4: R0914: Too many local variables (26/15) (too-many-locals)
+gobblet.py:542:61: E0606: Possibly using variable 'text_color' before assignment (possibly-used-before-assignment)
+gobblet.py:411:4: R0912: Too many branches (19/12) (too-many-branches)
+gobblet.py:411:4: R0915: Too many statements (74/50) (too-many-statements)
+gobblet.py:489:12: W0612: Unused variable 'piece_offset' (unused-variable)
+gobblet.py:561:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:270:12: W0201: Attribute 'current_state' defined outside __init__ (attribute-defined-outside-init)
+gobblet.py:272:12: W0201: Attribute 'current_state' defined outside __init__ (attribute-defined-outside-init)
+gobblet.py:274:12: W0201: Attribute 'current_state' defined outside __init__ (attribute-defined-outside-init)
+gobblet.py:277:12: W0201: Attribute 'current_state' defined outside __init__ (attribute-defined-outside-init)
+gobblet.py:137:8: W0201: Attribute 'selected_piece' defined outside __init__ (attribute-defined-outside-init)
+gobblet.py:265:8: W0201: Attribute 'selected_piece' defined outside __init__ (attribute-defined-outside-init)
+gobblet.py:140:8: W0201: Attribute 'valid_moves' defined outside __init__ (attribute-defined-outside-init)
+gobblet.py:266:8: W0201: Attribute 'valid_moves' defined outside __init__ (attribute-defined-outside-init)
+gobblet.py:261:8: W0201: Attribute 'last_move' defined outside __init__ (attribute-defined-outside-init)
+gobblet.py:9:0: W0611: Unused import os (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.70/10 (previous run: 7.83/10, +0.87)
+
+
+# pylint: disable=no-member
+by adding the above commnet at the top of the code
+These are false positives from pylint. Add a pylint disable comment at the top of your file:

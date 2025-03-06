@@ -1,0 +1,49 @@
+{
+  "480088bb-a797-477d-b834-c496f6248355": {
+    "restaurant_id": "480088bb-a797-477d-b834-c496f6248355",
+    "name": "Foodie Central",
+    "address": "123 Main St",
+    "menu_items": {
+      "9aa75045-83b9-486e-9166-ed7e4be70041": {
+        "item_id": "9aa75045-83b9-486e-9166-ed7e4be70041",
+        "name": "Margherita Pizza",
+        "description": "Classic tomato and cheese pizza",
+        "price": 12.99,
+        "prep_time": 15
+      },
+      "a6805193-d84e-4885-bfe7-2b68e7a36b96": {
+        "item_id": "a6805193-d84e-4885-bfe7-2b68e7a36b96",
+        "name": "Pepperoni Pizza",
+        "description": "Spicy pepperoni pizza",
+        "price": 14.99,
+        "prep_time": 15
+      },
+      "81d3d205-251b-4010-abf3-7614af0a7da8": {
+        "item_id": "81d3d205-251b-4010-abf3-7614af0a7da8",
+        "name": "Classic Burger",
+        "description": "Beef burger with cheese",
+        "price": 9.99,
+        "prep_time": 10
+      },
+      "3c4649b5-b0cc-4af1-a4a8-ebbb7b5f7bef": {
+        "item_id": "3c4649b5-b0cc-4af1-a4a8-ebbb7b5f7bef",
+        "name": "Veggie Burger",
+        "description": "Plant-based burger",
+        "price": 10.99,
+        "prep_time": 10
+      },
+      "674c29fe-7a22-4d8a-996e-4ed7ef9c3eb6": {
+        "item_id": "674c29fe-7a22-4d8a-996e-4ed7ef9c3eb6",
+        "name": "Cold Drink",
+        "description": "Quench your thirst",
+        "price": 5.0,
+        "prep_time": 5
+      }
+    },
+    "orders": [
+      "order-1741184020-3354",
+      "order-1741191647-7072",
+      "order-1741191751-3543"
+    ]
+  }
+}

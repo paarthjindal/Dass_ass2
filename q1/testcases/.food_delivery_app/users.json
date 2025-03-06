@@ -1,0 +1,19 @@
+{
+  "c3cad9b9-c4a3-485f-afab-910e4d87b754": {
+    "user_id": "c3cad9b9-c4a3-485f-afab-910e4d87b754",
+    "name": "Test Customer",
+    "email": "test@example.com",
+    "role": "Customer",
+    "address": "456 Test Ave",
+    "order_history": []
+  },
+  "a8141742-3f6c-4ec6-9621-cc27470503b8": {
+    "user_id": "a8141742-3f6c-4ec6-9621-cc27470503b8",
+    "name": "Test Agent",
+    "email": "agent@example.com",
+    "role": "Delivery Agent",
+    "available": true,
+    "current_order": null,
+    "completed_deliveries": []
+  }
+}
