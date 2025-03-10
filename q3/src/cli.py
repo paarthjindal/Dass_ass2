@@ -9,23 +9,21 @@ from typing import List, Dict, Optional, Union
 # ----- Model Classes -----
 
 class User(ABC):
-    def __init__(self, user_id: str, name: str, email: str, address: str, phone: str):
+    def __init__(self, user_id: str, name: str, email: str, address: str, phone: str, is_manager: bool = False):
         self.user_id = user_id
         self.name = name
         self.email = email
         self.address = address
         self.phone = phone
         self.loyalty_points = 0
+        self.is_manager = is_manager  # Add this flag
 
     @abstractmethod
     def get_discount_rate(self) -> float:
         pass
-
-
 class IndividualCustomer(User):
-    def __init__(self, user_id: str, name: str, email: str, address: str, phone: str):
-        super().__init__(user_id, name, email, address, phone)
-
+    def __init__(self, user_id: str, name: str, email: str, address: str, phone: str, is_manager: bool = False):
+        super().__init__(user_id, name, email, address, phone, is_manager)  # Pass is_manager to the parent class
     def get_discount_rate(self) -> float:
         # Base discount based on loyalty points
         if self.loyalty_points >= 1000:
@@ -35,10 +33,11 @@ class IndividualCustomer(User):
         return 0.0  # No discount
 
 
+# Modify the RetailStore class to include the is_manager flag
 class RetailStore(User):
     def __init__(self, user_id: str, name: str, email: str, address: str, phone: str,
-                 business_license: str, monthly_purchase_volume: float):
-        super().__init__(user_id, name, email, address, phone)
+                 business_license: str, monthly_purchase_volume: float, is_manager: bool = False):
+        super().__init__(user_id, name, email, address, phone, is_manager)
         self.business_license = business_license
         self.monthly_purchase_volume = monthly_purchase_volume
 
@@ -107,7 +106,17 @@ class ShoppingCart:
     def remove_item(self, product_id: str):
         self.items = [item for item in self.items if item.product.product_id != product_id]
         self.save_cart()
+    def remove_from_cart(self, product_id: str) -> bool:
+        if not self.items:  # If the cart is empty
+            return False
 
+        initial_item_count = len(self.items)
+        self.items = [item for item in self.items if item.product.product_id != product_id]
+
+        if len(self.items) < initial_item_count:
+            self.save_cart()
+            return True  # Item was removed
+        return False  # Item was not found
     def save_cart(self):
         cart_data = {
             "user_id": self.user.user_id,
@@ -759,11 +768,11 @@ class UserService:
         return user
 
     def create_retail_store(self, name: str, email: str, address: str, phone: str,
-                           business_license: str, monthly_purchase_volume: float) -> User:
+                           business_license: str, monthly_purchase_volume: float, is_manager: bool = False) -> User:
         user_id = str(uuid.uuid4())
-        user = RetailStore(user_id, name, email, address, phone, business_license, monthly_purchase_volume)
+        user = RetailStore(user_id, name, email, address, phone, business_license, monthly_purchase_volume, is_manager)
         user_data = vars(user)
-        user_data["type"] = "retail"  # Ensure type field is set
+        user_data["type"] = "retail"
         self.datastore.add_user(user_id, user_data)
         return user
 
@@ -774,13 +783,17 @@ class UserService:
                 print(f"Warning: User {user_id} is missing 'type' field in data.")
                 return None
 
+            # Load the is_manager flag (default to False if not present)
+            is_manager = user_data.get("is_manager", False)
+
             if user_data["type"] == "individual":
                 return IndividualCustomer(
                     user_id=user_data["user_id"],
                     name=user_data["name"],
                     email=user_data["email"],
                     address=user_data["address"],
-                    phone=user_data["phone"]
+                    phone=user_data["phone"],
+                    is_manager=is_manager  # Pass the is_manager flag
                 )
             else:
                 return RetailStore(
@@ -790,7 +803,8 @@ class UserService:
                     address=user_data["address"],
                     phone=user_data["phone"],
                     business_license=user_data["business_license"],
-                    monthly_purchase_volume=user_data["monthly_purchase_volume"]
+                    monthly_purchase_volume=user_data["monthly_purchase_volume"],
+                    is_manager=is_manager  # Pass the is_manager flag
                 )
         return None
 
@@ -1134,11 +1148,11 @@ class DollmartEMarket:
         return user
 
     def register_retail_store(self, name: str, email: str, address: str, phone: str,
-                           business_license: str, monthly_purchase_volume: float) -> User:
+                              business_license: str, monthly_purchase_volume: float, is_manager: bool = False) -> User:
         user = self.user_service.create_retail_store(name, email, address, phone,
-                                                   business_license, monthly_purchase_volume)
+                                                     business_license, monthly_purchase_volume, is_manager)
         self.current_user = user
-        self.shopping_cart = ShoppingCart(user,self.datastore)
+        self.shopping_cart = ShoppingCart(user, self.datastore)
         return user
 
     def browse_categories(self) -> List[Category]:
@@ -1153,7 +1167,9 @@ class DollmartEMarket:
     def add_to_cart(self, product_id: str, quantity: int) -> bool:
         if not self.current_user or not self.shopping_cart:
             return False
-
+        if quantity <= 0:  # Prevent adding negative or zero quantities
+            print("Error: Cannot add a product with zero or negative quantity.")
+            return False
         product = self.product_service.get_product(product_id)
         if not product or product.stock_quantity < quantity:
             return False
@@ -1184,20 +1200,28 @@ class DollmartEMarket:
     def update_cart_item(self, product_id: str, quantity: int) -> bool:
         if not self.current_user or not self.shopping_cart:
             return False
-
+        if quantity < 0:  # Prevent setting negative quantity
+            print("Error: Cannot update cart with negative quantity.")
+            return False
         product = self.product_service.get_product(product_id)
         if not product or (quantity > 0 and product.stock_quantity < quantity):
             return False
-
+        if quantity == 0:
+            return self.shopping_cart.remove_item(product_id)
         self.shopping_cart.update_quantity(product_id, quantity)
         return True
 
     def remove_from_cart(self, product_id: str) -> bool:
-        if not self.current_user or not self.shopping_cart:
+        if not self.items:  # If the cart is empty
             return False
 
-        self.shopping_cart.remove_item(product_id)
-        return True
+        initial_item_count = len(self.items)
+        self.items = [item for item in self.items if item.product.product_id != product_id]
+
+        if len(self.items) < initial_item_count:
+            self.save_cart()
+            return True  # Item was removed
+        return False  # Item was not found
 
     def checkout(self, delivery_method: str, delivery_address: str, coupon_code: str = None) -> Dict:
         if not self.current_user or not self.shopping_cart or not self.shopping_cart.items:
@@ -1296,17 +1320,77 @@ class DollmartEMarket:
         return None
 
     def update_delivery_status(self, order_id: str, new_status: str) -> bool:
-        # Only Dollmart can update delivery status
-        if isinstance(self.current_user, RetailStore) and self.current_user.name == "Dollmart":
+        # Only managers can update delivery status
+        if self.current_user and self.current_user.is_manager:
             if new_status == OrderStatus.SHIPPED:
                 return self.order_service.mark_order_as_shipped(order_id)
             elif new_status == OrderStatus.DELIVERED:
                 return self.order_service.mark_order_as_delivered(order_id)
+            else:
+                print("Invalid status. Only 'shipped' and 'delivered' are allowed.")
+                return False
+        else:
+            print("You do not have permission to update delivery status.")
+            return False
+    # Add new manager functions
+    def add_product(self, name: str, description: str, price: float, category_id: str, stock_quantity: int) -> bool:
+        if not name or price <= 0 or not category_id:
+         return False
+        if not self.current_user or not self.current_user.is_manager:
+            print("You do not have permission to add products.")
+            return False
+
+        product = self.product_service.create_product(name, description, price, category_id, stock_quantity)
+        if product:
+            print(f"Product '{name}' added successfully.")
+            return True
+        return False
+
+    def delete_product(self, product_id: str) -> bool:
+        if not self.current_user or not self.current_user.is_manager:
+            print("You do not have permission to delete products.")
+            return False
+
+        product = self.product_service.get_product(product_id)
+        if product:
+            self.datastore.products.pop(product_id)
+            self.datastore.save_data(self.datastore.products_file, self.datastore.products)
+            print(f"Product '{product.name}' deleted successfully.")
+            return True
+        print(f"Product with ID '{product_id}' not found.")
+        return False
+
+    def add_category(self, name: str, description: str) -> bool:
+        if not self.current_user or not self.current_user.is_manager:
+            print("You do not have permission to add categories.")
+            return False
+
+        category = self.product_service.create_category(name, description)
+        if category:
+            print(f"Category '{name}' added successfully.")
+            return True
+        return False
+
+    def delete_category(self, category_id: str) -> bool:
+        if not self.current_user or not self.current_user.is_manager:
+            print("You do not have permission to delete categories.")
+            return False
+
+        category = self.product_service.get_category(category_id)
+        if category:
+            self.datastore.categories.pop(category_id)
+            self.datastore.save_data(self.datastore.categories_file, self.datastore.categories)
+            print(f"Category '{category.name}' deleted successfully.")
+            return True
+        print(f"Category with ID '{category_id}' not found.")
         return False
 
 
 # ----- CLI Interface -----
 
+
+# Modify the main CLI interface to include manager options
+# In the main CLI interface, update the delivery status option
 def main():
     """Main CLI interface for Dollmart E-Market"""
     app = DollmartEMarket()
@@ -1317,6 +1401,7 @@ def main():
             print("1. Login")
             print("2. Register as Individual Customer")
             print("3. Register as Retail Store")
+            print("4. Register as Manager")
             print("0. Exit")
 
             choice = input("\nEnter your choice: ")
@@ -1353,6 +1438,21 @@ def main():
                 except ValueError:
                     print("Invalid amount. Please enter a valid number.")
 
+            elif choice == "4":
+                print("\n--- Register as Manager ---")
+                name = input("Name: ")
+                email = input("Email: ")
+                address = input("Address: ")
+                phone = input("Phone: ")
+                license_num = input("Business License Number: ")
+
+                try:
+                    volume = float(input("Monthly Purchase Volume ($): "))
+                    user = app.register_retail_store(name, email, address, phone, license_num, volume, is_manager=True)
+                    print(f"Registration successful! Your User ID is {user.user_id}")
+                except ValueError:
+                    print("Invalid amount. Please enter a valid number.")
+
             elif choice == "0":
                 print("Thank you for visiting Dollmart E-Market!")
                 break
@@ -1361,7 +1461,7 @@ def main():
                 print("Invalid choice. Please try again.")
 
         else:
-               # User is logged in
+            # User is logged in
             print(f"\n===== DOLLMART E-MARKET ({app.current_user.name}) =====")
             print("1. Browse Categories")
             print("2. Search Products")
@@ -1369,9 +1469,17 @@ def main():
             print("4. Checkout")
             print("5. View My Orders")
             print("6. View Delivery Status")
-            print("7. Update Delivery Status (Admin Only)")
+            print("7. Update Delivery Status (Manager Only)")
             print("8. View Loyalty Status")
             print("9. Logout")
+
+            if app.current_user.is_manager:
+                print("\n--- Manager Options ---")
+                print("10. Add Product")
+                print("11. Delete Product")
+                print("12. Add Category")
+                print("13. Delete Category")
+
             print("0. Exit")
 
             choice = input("\nEnter your choice: ")
@@ -1565,17 +1673,19 @@ def main():
                         print("\nItems:")
                         for item in order['items']:
                             print(f"- {item['name']} x {item['quantity']} = ${item['subtotal']:.2f}")
-            elif choice =="6":
-                 # View delivery status
+
+            elif choice == "6":
+                # View delivery status
                 order_id = input("Enter Order ID: ")
                 status = app.view_delivery_status(order_id)
                 if status:
                     print(f"\nDelivery Status for Order {order_id}: {status}")
                 else:
                     print("Order not found or you do not have permission to view this order.")
+
             elif choice == "7":
-                 # Update delivery status (Admin Only)
-                if isinstance(app.current_user, RetailStore):
+                # Update delivery status (Manager Only)
+                if app.current_user and app.current_user.is_manager:
                     order_id = input("Enter Order ID: ")
                     print("1. Mark as Shipped")
                     print("2. Mark as Delivered")
@@ -1594,7 +1704,6 @@ def main():
                         print("Invalid choice.")
                 else:
                     print("You do not have permission to update delivery status.")
-
 
             elif choice == "8":
                 # View loyalty status
@@ -1619,6 +1728,48 @@ def main():
                 app.current_user = None
                 app.shopping_cart = None
                 print("Logged out successfully.")
+
+            elif choice == "10" and app.current_user.is_manager:
+                # Add product
+                print("\n--- Add Product ---")
+                name = input("Product Name: ")
+                description = input("Description: ")
+                price = float(input("Price: "))
+                category_id = input("Category ID: ")
+                stock_quantity = int(input("Stock Quantity: "))
+
+                if app.add_product(name, description, price, category_id, stock_quantity):
+                    print("Product added successfully.")
+                else:
+                    print("Failed to add product.")
+
+            elif choice == "11" and app.current_user.is_manager:
+                # Delete product
+                print("\n--- Delete Product ---")
+                product_id = input("Enter Product ID: ")
+                if app.delete_product(product_id):
+                    print("Product deleted successfully.")
+                else:
+                    print("Failed to delete product.")
+
+            elif choice == "12" and app.current_user.is_manager:
+                # Add category
+                print("\n--- Add Category ---")
+                name = input("Category Name: ")
+                description = input("Description: ")
+                if app.add_category(name, description):
+                    print("Category added successfully.")
+                else:
+                    print("Failed to add category.")
+
+            elif choice == "13" and app.current_user.is_manager:
+                # Delete category
+                print("\n--- Delete Category ---")
+                category_id = input("Enter Category ID: ")
+                if app.delete_category(category_id):
+                    print("Category deleted successfully.")
+                else:
+                    print("Failed to delete category.")
 
             elif choice == "0":
                 print("Thank you for visiting Dollmart E-Market!")

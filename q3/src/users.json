@@ -38,5 +38,29 @@
     "business_license": "233",
     "monthly_purchase_volume": 21214.0,
     "type": "retail"
+  },
+  "2509bf65-2052-4ff3-9be3-a43c23b967ee": {
+    "user_id": "2509bf65-2052-4ff3-9be3-a43c23b967ee",
+    "name": "Dollmart",
+    "email": "ada",
+    "address": "dafaa",
+    "phone": "32e23",
+    "loyalty_points": 0,
+    "is_manager": true,
+    "business_license": "32",
+    "monthly_purchase_volume": 234345.0,
+    "type": "retail"
+  },
+  "96324a5e-541a-437c-a50d-07e21c273a75": {
+    "user_id": "96324a5e-541a-437c-a50d-07e21c273a75",
+    "name": "Paarth",
+    "email": "paarth@gmail.com",
+    "address": "sdaff",
+    "phone": "12335",
+    "loyalty_points": 0,
+    "is_manager": true,
+    "business_license": "23432",
+    "monthly_purchase_volume": 342423.0,
+    "type": "retail"
   }
 }

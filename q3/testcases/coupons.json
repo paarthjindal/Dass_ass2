@@ -1,0 +1,82 @@
+{
+  "coupon1": {
+    "coupon_id": "coupon1",
+    "code": "WELCOME10",
+    "discount_amount": 10.0,
+    "min_purchase_amount": 50.0,
+    "expiry_date": "2025-04-10 02:05:33",
+    "is_used": false
+  },
+  "coupon2": {
+    "coupon_id": "coupon2",
+    "code": "SPRING25",
+    "discount_amount": 25.0,
+    "min_purchase_amount": 100.0,
+    "expiry_date": "2025-03-26 02:05:33",
+    "is_used": false
+  },
+  "6d3a092f-43c9-4284-b23e-32f855371091": {
+    "coupon_id": "6d3a092f-43c9-4284-b23e-32f855371091",
+    "code": "DOLLMART9060",
+    "discount_amount": 10.0,
+    "min_purchase_amount": 50.0,
+    "expiry_date": "2025-04-10 03:00:24",
+    "is_used": false
+  },
+  "ffafa022-28ab-47d7-bbaf-610069074487": {
+    "coupon_id": "ffafa022-28ab-47d7-bbaf-610069074487",
+    "code": "DOLLMART5522",
+    "discount_amount": 10.0,
+    "min_purchase_amount": 50.0,
+    "expiry_date": "2025-04-10 03:02:20",
+    "is_used": false
+  },
+  "a9d5cb90-f31b-40fe-8741-ee0e0899d4d5": {
+    "coupon_id": "a9d5cb90-f31b-40fe-8741-ee0e0899d4d5",
+    "code": "DOLLMART3492",
+    "discount_amount": 10.0,
+    "min_purchase_amount": 50.0,
+    "expiry_date": "2025-04-10 03:03:10",
+    "is_used": false
+  },
+  "2fbe75fe-ac94-4984-9428-a612bf671d0a": {
+    "coupon_id": "2fbe75fe-ac94-4984-9428-a612bf671d0a",
+    "code": "DOLLMART8590",
+    "discount_amount": 10.0,
+    "min_purchase_amount": 50.0,
+    "expiry_date": "2025-04-10 03:03:15",
+    "is_used": false
+  },
+  "88910c2e-3d25-4fe9-a6f4-1dc9d843e1cc": {
+    "coupon_id": "88910c2e-3d25-4fe9-a6f4-1dc9d843e1cc",
+    "code": "DOLLMART5643",
+    "discount_amount": 10.0,
+    "min_purchase_amount": 50.0,
+    "expiry_date": "2025-04-10 03:05:40",
+    "is_used": false
+  },
+  "17e78db1-815d-4526-83e7-24534aa97d0c": {
+    "coupon_id": "17e78db1-815d-4526-83e7-24534aa97d0c",
+    "code": "DOLLMART7413",
+    "discount_amount": 10.0,
+    "min_purchase_amount": 50.0,
+    "expiry_date": "2025-04-10 03:08:49",
+    "is_used": false
+  },
+  "5f274717-b025-4eca-bec9-949c1fee2b28": {
+    "coupon_id": "5f274717-b025-4eca-bec9-949c1fee2b28",
+    "code": "DOLLMART9029",
+    "discount_amount": 10.0,
+    "min_purchase_amount": 50.0,
+    "expiry_date": "2025-04-10 03:11:28",
+    "is_used": false
+  },
+  "d0c154be-4c0b-41ba-afbf-04ea9c2eab3a": {
+    "coupon_id": "d0c154be-4c0b-41ba-afbf-04ea9c2eab3a",
+    "code": "DOLLMART7855",
+    "discount_amount": 10.0,
+    "min_purchase_amount": 50.0,
+    "expiry_date": "2025-04-10 03:15:17",
+    "is_used": false
+  }
+}

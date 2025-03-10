@@ -214,5 +214,13 @@
     "price": 14.99,
     "category_id": "cat5",
     "stock_quantity": 30
+  },
+  "25c988cf-2bde-40a8-a099-425be94ca4f2": {
+    "product_id": "25c988cf-2bde-40a8-a099-425be94ca4f2",
+    "name": "Pencil",
+    "description": "to write",
+    "price": 2.0,
+    "category_id": "cat1",
+    "stock_quantity": 10
   }
 }

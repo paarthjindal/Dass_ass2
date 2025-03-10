@@ -30,22 +30,20 @@
     "order2": {
         "order_id": "order2",
         "user_id": "user1",
-        "order_date": "2025-03-09 16:52:02",
-        "status": "processing",
-        "delivery_method": "standard",
-        "delivery_address": "123 Main St, City",
-        "estimated_delivery_date": "2025-03-12 16:52:02",
-        "discount_rate": 0.05,
-        "delivery_fee": 5.0,
         "items": [
             {
                 "product_id": "p4",
                 "name": "Headphones",
                 "price": 49.99,
-                "quantity": 1,
-                "subtotal": 49.99
+                "quantity": 1
             }
         ],
+        "delivery_method": "standard",
+        "delivery_address": "123 Main St, City",
+        "order_date": "2025-03-09 16:52:02",
+        "status": "delivered",
+        "estimated_delivery_date": "2025-03-12 16:52:02",
+        "discount_rate": 0.05,
         "total_amount": 52.49
     },
     "57fa28fd-de9b-40c5-b47b-bbe075102e25": {
