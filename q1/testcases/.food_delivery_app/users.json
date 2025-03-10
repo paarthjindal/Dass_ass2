@@ -1,16 +1,172 @@
 {
-  "c3cad9b9-c4a3-485f-afab-910e4d87b754": {
-    "user_id": "c3cad9b9-c4a3-485f-afab-910e4d87b754",
+  "33e6432c-4a57-4602-a847-2da4d4b76cbd": {
+    "user_id": "33e6432c-4a57-4602-a847-2da4d4b76cbd",
+    "name": "Test Customer",
+    "email": "test@example.com",
+    "role": "Customer",
+    "address": "456 Test Ave",
+    "order_history": [
+      "order-1741621464-2518"
+    ]
+  },
+  "29355180-f892-4767-af60-0a921d638b6d": {
+    "user_id": "29355180-f892-4767-af60-0a921d638b6d",
+    "name": "Another Customer",
+    "email": "test1@example.com",
+    "role": "Customer",
+    "address": "456 Test1 Ave",
+    "order_history": []
+  },
+  "4c559347-d110-4ec5-a980-76e0bc32ff56": {
+    "user_id": "4c559347-d110-4ec5-a980-76e0bc32ff56",
+    "name": "Test Agent",
+    "email": "agent@example.com",
+    "role": "Delivery Agent",
+    "available": false,
+    "current_order": "order-1741621464-2518",
+    "completed_deliveries": []
+  },
+  "3d510595-7915-441a-abbf-1497ba1ab187": {
+    "user_id": "3d510595-7915-441a-abbf-1497ba1ab187",
+    "name": "Manager",
+    "email": "manager@example.com",
+    "role": "Manager"
+  },
+  "99a9e166-f321-4374-ba51-10f29de45aa5": {
+    "user_id": "99a9e166-f321-4374-ba51-10f29de45aa5",
+    "name": "Test Customer",
+    "email": "test@example.com",
+    "role": "Customer",
+    "address": "456 Test Ave",
+    "order_history": [
+      "order-1741621464-3508"
+    ]
+  },
+  "6cfe7d68-9fc8-40d1-b98b-79047ab73772": {
+    "user_id": "6cfe7d68-9fc8-40d1-b98b-79047ab73772",
+    "name": "Another Customer",
+    "email": "test1@example.com",
+    "role": "Customer",
+    "address": "456 Test1 Ave",
+    "order_history": []
+  },
+  "89a60cb3-cd84-4b0c-b829-7cc3642ea494": {
+    "user_id": "89a60cb3-cd84-4b0c-b829-7cc3642ea494",
+    "name": "Test Agent",
+    "email": "agent@example.com",
+    "role": "Delivery Agent",
+    "available": false,
+    "current_order": "order-1741621464-3508",
+    "completed_deliveries": []
+  },
+  "9d7b98e6-747b-4fc7-b988-a7fc37b13cf0": {
+    "user_id": "9d7b98e6-747b-4fc7-b988-a7fc37b13cf0",
+    "name": "Manager",
+    "email": "manager@example.com",
+    "role": "Manager"
+  },
+  "f111c3af-0a3b-4508-993a-55b5cffc721d": {
+    "user_id": "f111c3af-0a3b-4508-993a-55b5cffc721d",
+    "name": "Test Customer",
+    "email": "test@example.com",
+    "role": "Customer",
+    "address": "456 Test Ave",
+    "order_history": [
+      "order-1741621464-4733"
+    ]
+  },
+  "5ec19dd8-d64f-484a-b0e5-9767448acd46": {
+    "user_id": "5ec19dd8-d64f-484a-b0e5-9767448acd46",
+    "name": "Another Customer",
+    "email": "test1@example.com",
+    "role": "Customer",
+    "address": "456 Test1 Ave",
+    "order_history": []
+  },
+  "409074a3-3592-4fbb-8323-50abffedb7d5": {
+    "user_id": "409074a3-3592-4fbb-8323-50abffedb7d5",
+    "name": "Test Agent",
+    "email": "agent@example.com",
+    "role": "Delivery Agent",
+    "available": false,
+    "current_order": "order-1741621464-4733",
+    "completed_deliveries": []
+  },
+  "74ba86c2-219c-4686-b634-d8284a46b43d": {
+    "user_id": "74ba86c2-219c-4686-b634-d8284a46b43d",
+    "name": "Manager",
+    "email": "manager@example.com",
+    "role": "Manager"
+  },
+  "e325be33-2284-4227-ac7b-9c25bedebb46": {
+    "user_id": "e325be33-2284-4227-ac7b-9c25bedebb46",
+    "name": "Test Customer",
+    "email": "test@example.com",
+    "role": "Customer",
+    "address": "456 Test Ave",
+    "order_history": [
+      "order-1741621464-1372",
+      "order-1741621464-4623"
+    ]
+  },
+  "3602cab2-22c8-49ee-875c-77adbca6af86": {
+    "user_id": "3602cab2-22c8-49ee-875c-77adbca6af86",
+    "name": "Another Customer",
+    "email": "test1@example.com",
+    "role": "Customer",
+    "address": "456 Test1 Ave",
+    "order_history": []
+  },
+  "3a87fd1b-56d7-4c6b-9ecf-4e49ded6ca81": {
+    "user_id": "3a87fd1b-56d7-4c6b-9ecf-4e49ded6ca81",
+    "name": "Test Agent",
+    "email": "agent@example.com",
+    "role": "Delivery Agent",
+    "available": false,
+    "current_order": "order-1741621464-1372",
+    "completed_deliveries": []
+  },
+  "d47eb991-85e7-4455-9bec-ff5ff015bd7e": {
+    "user_id": "d47eb991-85e7-4455-9bec-ff5ff015bd7e",
+    "name": "Manager",
+    "email": "manager@example.com",
+    "role": "Manager"
+  },
+  "caec30cd-bb65-4a8c-819e-106a12ec57ae": {
+    "user_id": "caec30cd-bb65-4a8c-819e-106a12ec57ae",
     "name": "Test Customer",
     "email": "test@example.com",
     "role": "Customer",
     "address": "456 Test Ave",
     "order_history": []
   },
-  "a8141742-3f6c-4ec6-9621-cc27470503b8": {
-    "user_id": "a8141742-3f6c-4ec6-9621-cc27470503b8",
+  "deb3ece9-065f-4748-9614-40f7d6fc1744": {
+    "user_id": "deb3ece9-065f-4748-9614-40f7d6fc1744",
+    "name": "Another Customer",
+    "email": "test1@example.com",
+    "role": "Customer",
+    "address": "456 Test1 Ave",
+    "order_history": []
+  },
+  "38505a1a-8cb4-4a5c-ab36-6c24fd48a13e": {
+    "user_id": "38505a1a-8cb4-4a5c-ab36-6c24fd48a13e",
     "name": "Test Agent",
     "email": "agent@example.com",
+    "role": "Delivery Agent",
+    "available": false,
+    "current_order": "order-1741621464-4623",
+    "completed_deliveries": []
+  },
+  "ce4596e2-d933-47cd-be4f-cfa9464a1951": {
+    "user_id": "ce4596e2-d933-47cd-be4f-cfa9464a1951",
+    "name": "Manager",
+    "email": "manager@example.com",
+    "role": "Manager"
+  },
+  "1b33a578-c47d-4fe3-9749-c3980b5a7ebf": {
+    "user_id": "1b33a578-c47d-4fe3-9749-c3980b5a7ebf",
+    "name": "Second Agent",
+    "email": "second@example.com",
     "role": "Delivery Agent",
     "available": true,
     "current_order": null,

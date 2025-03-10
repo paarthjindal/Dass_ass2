@@ -1,6 +1,6 @@
 # Basic set Up
 - Make a accounts of the customers(Sign Up).
-- Add the chefs and Delivery boys.
+- Add  Delivery boys.
 
 # Basic Test Case
 ## Customer
@@ -14,18 +14,8 @@
 - View All orders.
 - Add a delivery agent.
 - Remove a delivery Agent.
-- Add a chef.
-- Remove a chef.
 - Update Menu: Add a item, Remove a item,view menu.
 - view staff profiles with further details.
-
-## Chef
-- Login as the chef.
-- View current orders
-- Mark order as complete
-- Update order preparation time
-- Toggle duty status
-- View order history
 
 ## Delivery Boy
 - View current order
@@ -39,11 +29,14 @@
 ## Manager
 - Add a delivery agent with already existing ID.
 - Remove a delivery agent which dont exist.
+
+- Remove a Delivery Agent with Active Orders.
 - Add a item which already exist.
 - Remove a item which doesnt exist.
+- Update Menu with Invalid Price.
+- Add a Delivery Agent with Empty ID
 - View profile of Delivery boy that doesn't exist.
 - View profile of Delivery boy that is removed.
-
 
 ## Delivery Boy
 - View current order and then mark one of the orders as delivered and then check wheather it removed from their or not.
@@ -55,8 +48,17 @@
 - Update order delivery time to a negative value.
 - Mark a order delivered when its in the "In Kitchen" phase.
 - Toggle duty when already working on an order.
+- View Delivery History When No Orders Have Been Delivered.
 
-## Customer 
+## Customer
 - Place a same order twice and it should make them separate entry.
-- Check order status of the order which doesnt exist. 
+- Check order status of the order which doesnt exist.
 - Check order status of the order which belongs to some other user.
+- Place an Order with No Items.
+- Place an Order with Invalid Item Selection.
+- Place an Order When No Delivery Agents Are Available (for Home Delivery).
+
+# Assumtions Or Things which are not treated as error in my implementations are:
+- We can Add a Delivery Agent with an Existing Name.
+- Only for a Single Restaurant.
+- No Cancellation of the order is allowed.

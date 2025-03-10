@@ -217,7 +217,7 @@ class GobbletJr:
                             valid_moves.append((row, col))
 
         return valid_moves
-
+     # pylint: disable=unused-argument
     def would_reveal_win_for_opponent(self, piece, from_pos, to_row, to_col):
         """
         Check if moving a piece would reveal a winning line for the opponent.
@@ -418,6 +418,7 @@ class GobbletJr:
                     mouse_pos = pygame.mouse.get_pos()
                     self.handle_click(mouse_pos)
 
+    #pylint: disable=too-many-locals
     def handle_click(self, mouse_pos):
         """
         Handle mouse click events based on current game state.

@@ -1,0 +1,8 @@
+$ pylint gobblet.py
+************* Module gobblet
+gobblet.py:104:0: R0902: Too many instance attributes (12/7) (too-many-instance-attributes)
+
+------------------------------------------------------------------
+Your code has been rated at 9.97/10 (previous run: 9.94/10, +0.03)
+
+Added a pylint: disable=too-many-locals directive to the handle_click method

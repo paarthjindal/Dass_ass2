@@ -1,0 +1,42 @@
+{
+  "user1": {
+    "user_id": "user1",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "address": "123 Main St, City",
+    "phone": "555-1234",
+    "type": "individual",
+    "loyalty_points": 600
+  },
+  "store1": {
+    "user_id": "store1",
+    "name": "MyMart Store",
+    "email": "contact@mymart.com",
+    "address": "456 Commerce Blvd, City",
+    "phone": "555-5678",
+    "type": "retail",
+    "business_license": "BIZ123456",
+    "monthly_purchase_volume": 6000.0,
+    "loyalty_points": 0
+  },
+  "4423159a-fd24-41f1-bf94-28aac769e8a3": {
+    "user_id": "4423159a-fd24-41f1-bf94-28aac769e8a3",
+    "name": "Paarth",
+    "email": "paarth@gmail.com",
+    "address": "adfa",
+    "phone": "3424",
+    "loyalty_points": 0,
+    "type": "individual"
+  },
+  "d606954d-09a8-4116-8e36-1955407c848b": {
+    "user_id": "d606954d-09a8-4116-8e36-1955407c848b",
+    "name": "Dollmart",
+    "email": "zdvd",
+    "address": "adfad",
+    "phone": "2432",
+    "loyalty_points": 0,
+    "business_license": "233",
+    "monthly_purchase_volume": 21214.0,
+    "type": "retail"
+  }
+}
