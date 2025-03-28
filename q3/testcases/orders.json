@@ -647,5 +647,65 @@
         "subtotal": 100.0
       }
     ]
+  },
+  "87bcaeb4-a6a6-4c9a-97dc-25f75c667265": {
+    "order_id": "87bcaeb4-a6a6-4c9a-97dc-25f75c667265",
+    "user_id": "c43d43f5-b595-416a-a691-3e4bad2ab796",
+    "order_date": "2025-03-28 22:11:46",
+    "status": "created",
+    "delivery_method": "standard",
+    "delivery_address": "456 Plaza",
+    "estimated_delivery_date": "2025-03-31 22:11:46",
+    "discount_rate": 0.0,
+    "total_amount": 905.0,
+    "items": [
+      {
+        "product_id": "21c772a4-a02c-4186-984c-db56fa1560d1",
+        "name": "Camera",
+        "price": 900.0,
+        "quantity": 1,
+        "subtotal": 900.0
+      }
+    ]
+  },
+  "8da07f3e-bcb0-4536-8ca5-6bd7e235df77": {
+    "order_id": "8da07f3e-bcb0-4536-8ca5-6bd7e235df77",
+    "user_id": "2bdd537f-5e1c-46d8-aa50-76aa93713580",
+    "order_date": "2025-03-28 22:11:46",
+    "status": "created",
+    "delivery_method": "standard",
+    "delivery_address": "789 Avenue",
+    "estimated_delivery_date": "2025-03-31 22:11:46",
+    "discount_rate": 0.0,
+    "total_amount": 55.0,
+    "items": [
+      {
+        "product_id": "65bd5475-fa05-4fb3-9ee9-a1474242e199",
+        "name": "Mouse",
+        "price": 50.0,
+        "quantity": 1,
+        "subtotal": 50.0
+      }
+    ]
+  },
+  "59b7bc69-8483-416b-9d91-5daf217bb712": {
+    "order_id": "59b7bc69-8483-416b-9d91-5daf217bb712",
+    "user_id": "05f37630-b3e0-405e-a977-62d37c69cd05",
+    "order_date": "2025-03-28 22:11:47",
+    "status": "created",
+    "delivery_method": "standard",
+    "delivery_address": "123 Lane",
+    "estimated_delivery_date": "2025-03-31 22:11:47",
+    "discount_rate": 0.0,
+    "total_amount": 105.0,
+    "items": [
+      {
+        "product_id": "a8cc1872-547e-4330-9242-08ed7e2e08dc",
+        "name": "Speaker",
+        "price": 100.0,
+        "quantity": 1,
+        "subtotal": 100.0
+      }
+    ]
   }
 }

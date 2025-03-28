@@ -1,1 +1,1 @@
-pytest test.py -v --color=yes
+pytest test_app.py -v --color=yes

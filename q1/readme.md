@@ -60,3 +60,9 @@ The system ensures **persistence**, meaning data remains consistent across multi
 ---
 
 This document provides a **business-level software specification**, detailing major use cases and the functional structure of the food delivery system.
+
+
+
+# Instruction to run the testcase
+- First navigate to testcase folder of q1
+then just python test1.py

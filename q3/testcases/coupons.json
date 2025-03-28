@@ -78,5 +78,13 @@
     "min_purchase_amount": 50.0,
     "expiry_date": "2025-04-10 03:15:17",
     "is_used": false
+  },
+  "033f549d-e698-4f02-9d12-674187ddcb99": {
+    "coupon_id": "033f549d-e698-4f02-9d12-674187ddcb99",
+    "code": "DOLLMART1279",
+    "discount_amount": 10.0,
+    "min_purchase_amount": 50.0,
+    "expiry_date": "2025-04-27 22:11:46",
+    "is_used": false
   }
 }

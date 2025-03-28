@@ -3114,5 +3114,273 @@
     "business_license": "LIC456",
     "monthly_purchase_volume": 10000,
     "type": "retail"
+  },
+  "8f6e0f62-4470-46c3-9907-1cf8befcdf05": {
+    "user_id": "8f6e0f62-4470-46c3-9907-1cf8befcdf05",
+    "name": "Alice",
+    "email": "alice@example.com",
+    "address": "123 St",
+    "phone": "1234567890",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "85ef9a8d-8f11-4b0c-b3c4-658c4d123233": {
+    "user_id": "85ef9a8d-8f11-4b0c-b3c4-658c4d123233",
+    "name": "RetailCorp",
+    "email": "contact@retail.com",
+    "address": "Market St",
+    "phone": "9876543210",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "business_license": "LIC123",
+    "monthly_purchase_volume": 5000,
+    "type": "retail"
+  },
+  "dd7657a2-3c14-4c69-b3d6-e57a77886a3b": {
+    "user_id": "dd7657a2-3c14-4c69-b3d6-e57a77886a3b",
+    "name": "ManagerCorp",
+    "email": "manager@retail.com",
+    "address": "Manager St",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": true,
+    "business_license": "LIC456",
+    "monthly_purchase_volume": 10000,
+    "type": "retail"
+  },
+  "88f4ec41-7380-466a-bb44-1ea765b5e0f6": {
+    "user_id": "88f4ec41-7380-466a-bb44-1ea765b5e0f6",
+    "name": "Bob",
+    "email": "bob@example.com",
+    "address": "456 Road",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "a8b26b88-35ad-46e2-8881-d1ea6911dabc": {
+    "user_id": "a8b26b88-35ad-46e2-8881-d1ea6911dabc",
+    "name": "Eve",
+    "email": "eve@example.com",
+    "address": "789 Lane",
+    "phone": "9988776655",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "5baac47a-c840-4e9d-a9dc-15ce53bf2e43": {
+    "user_id": "5baac47a-c840-4e9d-a9dc-15ce53bf2e43",
+    "name": "Charlie",
+    "email": "charlie@example.com",
+    "address": "999 Blvd",
+    "phone": "2233445566",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "fa08b28d-9ad0-4162-9bb2-1d973d7ea96f": {
+    "user_id": "fa08b28d-9ad0-4162-9bb2-1d973d7ea96f",
+    "name": "David",
+    "email": "david@example.com",
+    "address": "444 Street",
+    "phone": "5566778899",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "e2a26728-1ff7-4fc6-8178-4634a6623760": {
+    "user_id": "e2a26728-1ff7-4fc6-8178-4634a6623760",
+    "name": "Emily",
+    "email": "emily@example.com",
+    "address": "555 Lane",
+    "phone": "6677889900",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "a4afb8dd-5131-4aa5-8f2e-1f2d1f9c42f6": {
+    "user_id": "a4afb8dd-5131-4aa5-8f2e-1f2d1f9c42f6",
+    "name": "Frank",
+    "email": "frank@example.com",
+    "address": "123 Avenue",
+    "phone": "7766554433",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "75d23112-e75e-40df-a616-6203b64d00ce": {
+    "user_id": "75d23112-e75e-40df-a616-6203b64d00ce",
+    "name": "George",
+    "email": "george@example.com",
+    "address": "789 Boulevard",
+    "phone": "9988665544",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "c43d43f5-b595-416a-a691-3e4bad2ab796": {
+    "user_id": "c43d43f5-b595-416a-a691-3e4bad2ab796",
+    "name": "Hannah",
+    "email": "hannah@example.com",
+    "address": "456 Plaza",
+    "phone": "1122446688",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "0bd06a3d-e649-4bca-b3ed-080a5496b6cb": {
+    "user_id": "0bd06a3d-e649-4bca-b3ed-080a5496b6cb",
+    "name": "Ivy",
+    "email": "ivy@example.com",
+    "address": "555 Plaza",
+    "phone": "9998887777",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "2bdd537f-5e1c-46d8-aa50-76aa93713580": {
+    "user_id": "2bdd537f-5e1c-46d8-aa50-76aa93713580",
+    "name": "Jake",
+    "email": "jake@example.com",
+    "address": "789 Avenue",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "05f37630-b3e0-405e-a977-62d37c69cd05": {
+    "user_id": "05f37630-b3e0-405e-a977-62d37c69cd05",
+    "name": "Katie",
+    "email": "katie@example.com",
+    "address": "123 Lane",
+    "phone": "9988776655",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "b43b98b6-421b-4dfd-80fd-81946314a258": {
+    "user_id": "b43b98b6-421b-4dfd-80fd-81946314a258",
+    "name": "Liam",
+    "email": "liam@example.com",
+    "address": "456 Plaza",
+    "phone": "1122446688",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "ad660afd-5032-457e-8461-8046b3f9f01d": {
+    "user_id": "ad660afd-5032-457e-8461-8046b3f9f01d",
+    "name": "Mia",
+    "email": "mia@example.com",
+    "address": "555 Plaza",
+    "phone": "9998887777",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "1a94840a-dfa8-45de-9adc-e9954243748b": {
+    "user_id": "1a94840a-dfa8-45de-9adc-e9954243748b",
+    "name": "Noah",
+    "email": "noah@example.com",
+    "address": "789 Avenue",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "0facc1e9-a896-4de7-ac04-cdde3b27e97e": {
+    "user_id": "0facc1e9-a896-4de7-ac04-cdde3b27e97e",
+    "name": "Olivia",
+    "email": "olivia@example.com",
+    "address": "123 Lane",
+    "phone": "9988776655",
+    "loyalty_points": 0,
+    "is_manager": false,
+    "type": "individual"
+  },
+  "eef04b61-ec7a-40fe-80e2-fd659da32326": {
+    "user_id": "eef04b61-ec7a-40fe-80e2-fd659da32326",
+    "name": "ManagerCorp",
+    "email": "manager@retail.com",
+    "address": "Manager St",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": true,
+    "business_license": "LIC456",
+    "monthly_purchase_volume": 10000,
+    "type": "retail"
+  },
+  "01dd64fd-3c1b-40d5-99ac-705a3b5e6d82": {
+    "user_id": "01dd64fd-3c1b-40d5-99ac-705a3b5e6d82",
+    "name": "ManagerCorp",
+    "email": "manager@retail.com",
+    "address": "Manager St",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": true,
+    "business_license": "LIC456",
+    "monthly_purchase_volume": 10000,
+    "type": "retail"
+  },
+  "3c9eb820-633e-4033-9c15-68bfffd7f631": {
+    "user_id": "3c9eb820-633e-4033-9c15-68bfffd7f631",
+    "name": "ManagerCorp",
+    "email": "manager@retail.com",
+    "address": "Manager St",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": true,
+    "business_license": "LIC456",
+    "monthly_purchase_volume": 10000,
+    "type": "retail"
+  },
+  "9f10e02e-cda1-47a1-bde7-4559169b5f6b": {
+    "user_id": "9f10e02e-cda1-47a1-bde7-4559169b5f6b",
+    "name": "ManagerCorp",
+    "email": "manager@retail.com",
+    "address": "Manager St",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": true,
+    "business_license": "LIC456",
+    "monthly_purchase_volume": 10000,
+    "type": "retail"
+  },
+  "82bc9556-d333-4c58-bbb3-d8f5bc9880f2": {
+    "user_id": "82bc9556-d333-4c58-bbb3-d8f5bc9880f2",
+    "name": "ManagerCorp",
+    "email": "manager@retail.com",
+    "address": "Manager St",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": true,
+    "business_license": "LIC456",
+    "monthly_purchase_volume": 10000,
+    "type": "retail"
+  },
+  "6442e763-a6a4-4387-97aa-588dd18534a3": {
+    "user_id": "6442e763-a6a4-4387-97aa-588dd18534a3",
+    "name": "ManagerCorp",
+    "email": "manager@retail.com",
+    "address": "Manager St",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": true,
+    "business_license": "LIC456",
+    "monthly_purchase_volume": 10000,
+    "type": "retail"
+  },
+  "11d332c8-ccaa-4334-bb7d-b5c426424f02": {
+    "user_id": "11d332c8-ccaa-4334-bb7d-b5c426424f02",
+    "name": "ManagerCorp",
+    "email": "manager@retail.com",
+    "address": "Manager St",
+    "phone": "1122334455",
+    "loyalty_points": 0,
+    "is_manager": true,
+    "business_license": "LIC456",
+    "monthly_purchase_volume": 10000,
+    "type": "retail"
   }
 }
