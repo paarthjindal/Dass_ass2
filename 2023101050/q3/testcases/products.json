@@ -1,0 +1,1498 @@
+{
+  "p1": {
+    "product_id": "p1",
+    "name": "Milk",
+    "description": "1 gallon whole milk",
+    "price": 3.99,
+    "category_id": "cat1",
+    "stock_quantity": 100
+  },
+  "p2": {
+    "product_id": "p2",
+    "name": "Bread",
+    "description": "Whole wheat bread loaf",
+    "price": 2.49,
+    "category_id": "cat1",
+    "stock_quantity": 75
+  },
+  "p3": {
+    "product_id": "p3",
+    "name": "Eggs",
+    "description": "Dozen large eggs",
+    "price": 2.99,
+    "category_id": "cat1",
+    "stock_quantity": 50
+  },
+  "p4": {
+    "product_id": "p4",
+    "name": "Headphones",
+    "description": "Wireless bluetooth headphones",
+    "price": 49.99,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "p5": {
+    "product_id": "p5",
+    "name": "USB Cable",
+    "description": "6ft USB-C charging cable",
+    "price": 12.99,
+    "category_id": "cat2",
+    "stock_quantity": 30
+  },
+  "p6": {
+    "product_id": "p6",
+    "name": "Power Bank",
+    "description": "10000mAh portable charger",
+    "price": 29.99,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "p10": {
+    "product_id": "p10",
+    "name": "Smart Speaker",
+    "description": "Voice-controlled smart speaker",
+    "price": 89.99,
+    "category_id": "cat2",
+    "stock_quantity": 12
+  },
+  "p11": {
+    "product_id": "p11",
+    "name": "Webcam",
+    "description": "HD webcam for video calls",
+    "price": 59.99,
+    "category_id": "cat2",
+    "stock_quantity": 18
+  },
+  "p12": {
+    "product_id": "p12",
+    "name": "Mouse",
+    "description": "Wireless ergonomic computer mouse",
+    "price": 24.99,
+    "category_id": "cat2",
+    "stock_quantity": 25
+  },
+  "p13": {
+    "product_id": "p13",
+    "name": "Shampoo",
+    "description": "Daily moisturizing shampoo",
+    "price": 5.99,
+    "category_id": "cat3",
+    "stock_quantity": 40
+  },
+  "p14": {
+    "product_id": "p14",
+    "name": "Toothpaste",
+    "description": "Mint flavor toothpaste",
+    "price": 3.49,
+    "category_id": "cat3",
+    "stock_quantity": 60
+  },
+  "p15": {
+    "product_id": "p15",
+    "name": "Soap",
+    "description": "Pack of 4 bath soap bars",
+    "price": 4.99,
+    "category_id": "cat3",
+    "stock_quantity": 45
+  },
+  "p16": {
+    "product_id": "p16",
+    "name": "Face Wash",
+    "description": "Gentle cleansing face wash",
+    "price": 7.99,
+    "category_id": "cat3",
+    "stock_quantity": 35
+  },
+  "p17": {
+    "product_id": "p17",
+    "name": "Hand Sanitizer",
+    "description": "8oz antibacterial hand sanitizer",
+    "price": 3.99,
+    "category_id": "cat3",
+    "stock_quantity": 70
+  },
+  "p18": {
+    "product_id": "p18",
+    "name": "Lotion",
+    "description": "Daily moisturizing body lotion",
+    "price": 6.99,
+    "category_id": "cat3",
+    "stock_quantity": 30
+  },
+  "p19": {
+    "product_id": "p19",
+    "name": "Coffee Maker",
+    "description": "12-cup programmable coffee maker",
+    "price": 34.99,
+    "category_id": "cat4",
+    "stock_quantity": 15
+  },
+  "p20": {
+    "product_id": "p20",
+    "name": "Toaster",
+    "description": "2-slice stainless steel toaster",
+    "price": 24.99,
+    "category_id": "cat4",
+    "stock_quantity": 20
+  },
+  "p21": {
+    "product_id": "p21",
+    "name": "Blender",
+    "description": "Countertop blender with multiple speeds",
+    "price": 49.99,
+    "category_id": "cat4",
+    "stock_quantity": 12
+  },
+  "p22": {
+    "product_id": "p22",
+    "name": "Cutting Board",
+    "description": "Bamboo cutting board set",
+    "price": 19.99,
+    "category_id": "cat4",
+    "stock_quantity": 25
+  },
+  "p23": {
+    "product_id": "p23",
+    "name": "Cookware Set",
+    "description": "10-piece non-stick cookware set",
+    "price": 79.99,
+    "category_id": "cat4",
+    "stock_quantity": 10
+  },
+  "p24": {
+    "product_id": "p24",
+    "name": "Utensil Set",
+    "description": "Kitchen utensil set with holder",
+    "price": 15.99,
+    "category_id": "cat4",
+    "stock_quantity": 30
+  },
+  "p25": {
+    "product_id": "p25",
+    "name": "T-Shirt",
+    "description": "Cotton crew neck t-shirt",
+    "price": 14.99,
+    "category_id": "cat5",
+    "stock_quantity": 50
+  },
+  "p26": {
+    "product_id": "p26",
+    "name": "Jeans",
+    "description": "Classic fit denim jeans",
+    "price": 29.99,
+    "category_id": "cat5",
+    "stock_quantity": 35
+  },
+  "p27": {
+    "product_id": "p27",
+    "name": "Socks",
+    "description": "Pack of 6 crew socks",
+    "price": 12.99,
+    "category_id": "cat5",
+    "stock_quantity": 60
+  },
+  "p28": {
+    "product_id": "p28",
+    "name": "Sweater",
+    "description": "Wool-blend pullover sweater",
+    "price": 34.99,
+    "category_id": "cat5",
+    "stock_quantity": 25
+  },
+  "p29": {
+    "product_id": "p29",
+    "name": "Hat",
+    "description": "Adjustable baseball cap",
+    "price": 16.99,
+    "category_id": "cat5",
+    "stock_quantity": 40
+  },
+  "p30": {
+    "product_id": "p30",
+    "name": "Gloves",
+    "description": "Touchscreen compatible winter gloves",
+    "price": 14.99,
+    "category_id": "cat5",
+    "stock_quantity": 30
+  },
+  "779d4d0b-d334-4cd4-9b04-0c2c0036e371": {
+    "product_id": "779d4d0b-d334-4cd4-9b04-0c2c0036e371",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "d41e6023-6c21-4705-b19b-4f62b5b074dc": {
+    "product_id": "d41e6023-6c21-4705-b19b-4f62b5b074dc",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "6b42aeb4-bff2-49fe-9e2b-6d61126547f8": {
+    "product_id": "6b42aeb4-bff2-49fe-9e2b-6d61126547f8",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "eb3d1d76-a6bb-4726-95ae-ceed1532540d": {
+    "product_id": "eb3d1d76-a6bb-4726-95ae-ceed1532540d",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "92daa0d6-78e8-413c-9d48-54a16cc85b86": {
+    "product_id": "92daa0d6-78e8-413c-9d48-54a16cc85b86",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "13595c78-8def-4cf5-84fe-f66850f20529": {
+    "product_id": "13595c78-8def-4cf5-84fe-f66850f20529",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "33d52d92-82a9-4e2e-ab4c-cd9063670ea4": {
+    "product_id": "33d52d92-82a9-4e2e-ab4c-cd9063670ea4",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "dc45fc85-603e-49cb-a0fc-3170d275b3bd": {
+    "product_id": "dc45fc85-603e-49cb-a0fc-3170d275b3bd",
+    "name": "Smartphone",
+    "description": "Latest model",
+    "price": 999.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "e8cfcdd3-2d69-4052-be35-625c6f3b908d": {
+    "product_id": "e8cfcdd3-2d69-4052-be35-625c6f3b908d",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "37026623-86f3-4947-a233-a28730cbb84a": {
+    "product_id": "37026623-86f3-4947-a233-a28730cbb84a",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "6b51a2af-b66d-403f-bbd1-2df2d1a74b42": {
+    "product_id": "6b51a2af-b66d-403f-bbd1-2df2d1a74b42",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "503cb96a-371a-4a1d-b57a-56386d202538": {
+    "product_id": "503cb96a-371a-4a1d-b57a-56386d202538",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "9c7dd5c3-23a9-43b3-8b5c-7b2985502d5f": {
+    "product_id": "9c7dd5c3-23a9-43b3-8b5c-7b2985502d5f",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "2ff45500-ff9e-447f-a51d-da3bf488a21e": {
+    "product_id": "2ff45500-ff9e-447f-a51d-da3bf488a21e",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "d8ea423c-6b42-40f3-96c0-0f2a7be0b68e": {
+    "product_id": "d8ea423c-6b42-40f3-96c0-0f2a7be0b68e",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "dabfb28d-b486-4fef-92e7-ca4016b5d59d": {
+    "product_id": "dabfb28d-b486-4fef-92e7-ca4016b5d59d",
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1500.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "111e77be-e2e4-4586-8f24-103f92de2bce": {
+    "product_id": "111e77be-e2e4-4586-8f24-103f92de2bce",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "14b74224-be75-4185-8e30-bf798be73541": {
+    "product_id": "14b74224-be75-4185-8e30-bf798be73541",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "d114d5a6-e2b2-44c7-8b85-76cb3673323a": {
+    "product_id": "d114d5a6-e2b2-44c7-8b85-76cb3673323a",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "a90e6dc9-ac7d-4212-b720-b53174d1e1f5": {
+    "product_id": "a90e6dc9-ac7d-4212-b720-b53174d1e1f5",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "6e346f96-991f-4f7a-bc5e-6080c8d1020a": {
+    "product_id": "6e346f96-991f-4f7a-bc5e-6080c8d1020a",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 4
+  },
+  "57000965-9213-4b23-bd60-3138388f8f34": {
+    "product_id": "57000965-9213-4b23-bd60-3138388f8f34",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "ffff888e-5abc-4d85-8177-39e341031e86": {
+    "product_id": "ffff888e-5abc-4d85-8177-39e341031e86",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "942c62be-415b-438e-9931-e365e1415e1b": {
+    "product_id": "942c62be-415b-438e-9931-e365e1415e1b",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "df05b2a0-4aaf-4254-bc4d-eb8e1101e09f": {
+    "product_id": "df05b2a0-4aaf-4254-bc4d-eb8e1101e09f",
+    "name": "Keyboard",
+    "description": "Mechanical keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "b06136bc-4153-415d-b32a-1054f860a7de": {
+    "product_id": "b06136bc-4153-415d-b32a-1054f860a7de",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "13d0d873-301c-4443-ba21-68196e208682": {
+    "product_id": "13d0d873-301c-4443-ba21-68196e208682",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "eb796435-03fd-420a-9173-637994964eac": {
+    "product_id": "eb796435-03fd-420a-9173-637994964eac",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "4049d8ef-79d3-4574-9a4f-244b60abdda3": {
+    "product_id": "4049d8ef-79d3-4574-9a4f-244b60abdda3",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "0fc05510-bc8d-445c-9b8f-4f7a84d98220": {
+    "product_id": "0fc05510-bc8d-445c-9b8f-4f7a84d98220",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "95b1ff1c-9b36-47b7-b78c-7508c733bbe3": {
+    "product_id": "95b1ff1c-9b36-47b7-b78c-7508c733bbe3",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 4
+  },
+  "7c800cf0-3f10-40c7-ab11-180c380cf8c3": {
+    "product_id": "7c800cf0-3f10-40c7-ab11-180c380cf8c3",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "5cd5e382-defe-48d5-b438-0306f2bad4f5": {
+    "product_id": "5cd5e382-defe-48d5-b438-0306f2bad4f5",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "2b086918-e4d2-4f31-be25-0bf7364b0da9": {
+    "product_id": "2b086918-e4d2-4f31-be25-0bf7364b0da9",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "8b9edfd8-1341-4892-b3cf-d9806f45e6af": {
+    "product_id": "8b9edfd8-1341-4892-b3cf-d9806f45e6af",
+    "name": "Keyboard",
+    "description": "Mechanical keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "0d0cc9ef-b0d3-4cc1-b5aa-fdf50e7be6ce": {
+    "product_id": "0d0cc9ef-b0d3-4cc1-b5aa-fdf50e7be6ce",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "f714b0a1-a9ae-4365-90e0-11292daa55a8": {
+    "product_id": "f714b0a1-a9ae-4365-90e0-11292daa55a8",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "2fb3ef48-41f6-4e92-9b64-9c0b748f7b4d": {
+    "product_id": "2fb3ef48-41f6-4e92-9b64-9c0b748f7b4d",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "2d3c25d7-437d-44ad-90d3-494c918b6a7b": {
+    "product_id": "2d3c25d7-437d-44ad-90d3-494c918b6a7b",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "e37c9ab0-a0a4-4b07-b790-b644f5fa21e0": {
+    "product_id": "e37c9ab0-a0a4-4b07-b790-b644f5fa21e0",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "92be2f14-e743-463d-9677-a0c0080afc54": {
+    "product_id": "92be2f14-e743-463d-9677-a0c0080afc54",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 4
+  },
+  "f459e1ae-2b98-4f1c-883e-1978fce0406c": {
+    "product_id": "f459e1ae-2b98-4f1c-883e-1978fce0406c",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "c4186105-b0ea-48e5-84f5-d58f9ca1c87a": {
+    "product_id": "c4186105-b0ea-48e5-84f5-d58f9ca1c87a",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "c7926efb-30d1-406f-9c65-4e9cb8d8d8ae": {
+    "product_id": "c7926efb-30d1-406f-9c65-4e9cb8d8d8ae",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "5b4de922-e97c-47a5-99ad-ca4a27e31699": {
+    "product_id": "5b4de922-e97c-47a5-99ad-ca4a27e31699",
+    "name": "Keyboard",
+    "description": "Mechanical keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "28a9d6aa-2761-40d3-8f23-0b87872ac260": {
+    "product_id": "28a9d6aa-2761-40d3-8f23-0b87872ac260",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "9b52f8e9-d747-4177-b531-2773868e12d9": {
+    "product_id": "9b52f8e9-d747-4177-b531-2773868e12d9",
+    "name": "Keyboard",
+    "description": "Mechanical keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "65b00d79-f8ef-4613-b260-3e9c2f545e26": {
+    "product_id": "65b00d79-f8ef-4613-b260-3e9c2f545e26",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "b896ac8c-4245-4c8c-b7c0-cd2614739a58": {
+    "product_id": "b896ac8c-4245-4c8c-b7c0-cd2614739a58",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "87248262-c6f2-4a19-95e8-9f2ac922dfb4": {
+    "product_id": "87248262-c6f2-4a19-95e8-9f2ac922dfb4",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "bd1ba676-aac3-47ce-b9d2-a5936fcc02a5": {
+    "product_id": "bd1ba676-aac3-47ce-b9d2-a5936fcc02a5",
+    "name": "",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "c8f967dd-b72d-426c-907d-0b4a2740cc38": {
+    "product_id": "c8f967dd-b72d-426c-907d-0b4a2740cc38",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 0.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "a42598da-70a3-4cce-b036-b9bd162c089e": {
+    "product_id": "a42598da-70a3-4cce-b036-b9bd162c089e",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "",
+    "stock_quantity": 10
+  },
+  "397a94e6-23fa-4bf3-a59b-3848255411f5": {
+    "product_id": "397a94e6-23fa-4bf3-a59b-3848255411f5",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "67cfbbea-1dcb-4ca2-9be3-e51ec7eaebec": {
+    "product_id": "67cfbbea-1dcb-4ca2-9be3-e51ec7eaebec",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "0084579f-9298-47f3-a14f-f59ffff4b23b": {
+    "product_id": "0084579f-9298-47f3-a14f-f59ffff4b23b",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "d618949b-2447-41d0-a969-481df9e15462": {
+    "product_id": "d618949b-2447-41d0-a969-481df9e15462",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "393275bc-e030-4499-b669-0438faf1fc78": {
+    "product_id": "393275bc-e030-4499-b669-0438faf1fc78",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 5
+  },
+  "741ea952-4065-491d-b999-fee2b8982798": {
+    "product_id": "741ea952-4065-491d-b999-fee2b8982798",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "867ac6da-eaad-47c1-8a63-b852449e781f": {
+    "product_id": "867ac6da-eaad-47c1-8a63-b852449e781f",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "5afd90d7-3892-4299-b66c-af1ec815ca50": {
+    "product_id": "5afd90d7-3892-4299-b66c-af1ec815ca50",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "1e65a81c-90a7-4571-b884-ab4a7370c45a": {
+    "product_id": "1e65a81c-90a7-4571-b884-ab4a7370c45a",
+    "name": "Speaker",
+    "description": "Bluetooth Speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "15d388fe-01f6-46fa-932a-1de41f26a798": {
+    "product_id": "15d388fe-01f6-46fa-932a-1de41f26a798",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "0f41f6b5-5cef-4cd1-96fe-0f16d6b64945": {
+    "product_id": "0f41f6b5-5cef-4cd1-96fe-0f16d6b64945",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "bd773c0d-b097-48b3-9fd6-30ff491b65db": {
+    "product_id": "bd773c0d-b097-48b3-9fd6-30ff491b65db",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "54fbd61d-9156-41dc-8c1a-cf1bed052674": {
+    "product_id": "54fbd61d-9156-41dc-8c1a-cf1bed052674",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "54a2a15c-d29e-48f8-aedb-987594b3c304": {
+    "product_id": "54a2a15c-d29e-48f8-aedb-987594b3c304",
+    "name": "",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "8d4cafd4-d726-44fa-8499-154b161880fe": {
+    "product_id": "8d4cafd4-d726-44fa-8499-154b161880fe",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 0.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "4f53773d-34a4-42de-b1ad-5e74f2527edc": {
+    "product_id": "4f53773d-34a4-42de-b1ad-5e74f2527edc",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "",
+    "stock_quantity": 10
+  },
+  "3519516e-b656-413a-b250-f9ef665dff9a": {
+    "product_id": "3519516e-b656-413a-b250-f9ef665dff9a",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "e3dbb05f-2c33-4b67-a1c4-edd79ebf1862": {
+    "product_id": "e3dbb05f-2c33-4b67-a1c4-edd79ebf1862",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "4a02d5ea-865b-4da3-b2b8-24af016e7bd8": {
+    "product_id": "4a02d5ea-865b-4da3-b2b8-24af016e7bd8",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "4b569289-51f0-49a9-81d4-cf6a849309a3": {
+    "product_id": "4b569289-51f0-49a9-81d4-cf6a849309a3",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "9d8fd8e9-5eb1-4b71-8460-7242a32cb8fb": {
+    "product_id": "9d8fd8e9-5eb1-4b71-8460-7242a32cb8fb",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 5
+  },
+  "5c5b08a6-64c0-42fa-8c9d-2f5113d2dd7d": {
+    "product_id": "5c5b08a6-64c0-42fa-8c9d-2f5113d2dd7d",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "7ca1751a-eedc-4563-be95-52dde81f73e7": {
+    "product_id": "7ca1751a-eedc-4563-be95-52dde81f73e7",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "3c1cdfa2-309d-48c3-bb2d-a6675eff3551": {
+    "product_id": "3c1cdfa2-309d-48c3-bb2d-a6675eff3551",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "3fb44cbd-ccd3-45d5-8fb1-d71fc5e6791d": {
+    "product_id": "3fb44cbd-ccd3-45d5-8fb1-d71fc5e6791d",
+    "name": "Speaker",
+    "description": "Bluetooth Speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "84f2e422-1c63-49ce-8df4-d0cc08fdc993": {
+    "product_id": "84f2e422-1c63-49ce-8df4-d0cc08fdc993",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "58a6bda6-7a8c-44e3-86f6-d58243bc5e60": {
+    "product_id": "58a6bda6-7a8c-44e3-86f6-d58243bc5e60",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "b5f25cbe-2004-49e4-8558-53932312f78d": {
+    "product_id": "b5f25cbe-2004-49e4-8558-53932312f78d",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "5f499b63-d9e8-44aa-9dd9-73ed589603de": {
+    "product_id": "5f499b63-d9e8-44aa-9dd9-73ed589603de",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "0dad632c-a87b-41b8-b6fb-a6a9c3199fc4": {
+    "product_id": "0dad632c-a87b-41b8-b6fb-a6a9c3199fc4",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "baf35911-6035-48dd-bc0b-7e1eb4845ea7": {
+    "product_id": "baf35911-6035-48dd-bc0b-7e1eb4845ea7",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "18189ada-b66e-48e4-8075-3492d371478a": {
+    "product_id": "18189ada-b66e-48e4-8075-3492d371478a",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "2f8afe40-b6ef-412b-8ea3-90fbd9dbb323": {
+    "product_id": "2f8afe40-b6ef-412b-8ea3-90fbd9dbb323",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "cec06b0a-0612-489e-ae48-dc24ff6804cf": {
+    "product_id": "cec06b0a-0612-489e-ae48-dc24ff6804cf",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 5
+  },
+  "5cb33cf8-92ba-4cac-b2c6-54c291f3d48c": {
+    "product_id": "5cb33cf8-92ba-4cac-b2c6-54c291f3d48c",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "d28919f4-4d0a-43fd-9343-ea01151ba3dc": {
+    "product_id": "d28919f4-4d0a-43fd-9343-ea01151ba3dc",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "42926085-fc9d-41a6-ac13-44a616600a1a": {
+    "product_id": "42926085-fc9d-41a6-ac13-44a616600a1a",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "e910923d-daca-41d3-bad6-1b37ba5b7313": {
+    "product_id": "e910923d-daca-41d3-bad6-1b37ba5b7313",
+    "name": "Speaker",
+    "description": "Bluetooth Speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "119e9664-a7d7-4d37-9b27-4df4e8ad5bd3": {
+    "product_id": "119e9664-a7d7-4d37-9b27-4df4e8ad5bd3",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "65063f59-9a83-4e83-9501-5992194ee5d0": {
+    "product_id": "65063f59-9a83-4e83-9501-5992194ee5d0",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "a1c79199-3be6-4d48-92e8-2093ffc6b4a0": {
+    "product_id": "a1c79199-3be6-4d48-92e8-2093ffc6b4a0",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "a80ed5c6-aef1-4b3d-9c97-e8c014f454f9": {
+    "product_id": "a80ed5c6-aef1-4b3d-9c97-e8c014f454f9",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "fb0c8586-7856-4073-a758-d54de0ea521d": {
+    "product_id": "fb0c8586-7856-4073-a758-d54de0ea521d",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "963d153d-44fc-4a34-b6a7-1b982846d267": {
+    "product_id": "963d153d-44fc-4a34-b6a7-1b982846d267",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "afb2bb74-8892-4c6e-af3e-e1e3679a0993": {
+    "product_id": "afb2bb74-8892-4c6e-af3e-e1e3679a0993",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "e363a980-0571-4bf4-8c64-52fc82b9c24b": {
+    "product_id": "e363a980-0571-4bf4-8c64-52fc82b9c24b",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "be49258e-2ed2-4846-94b2-332b0b5772be": {
+    "product_id": "be49258e-2ed2-4846-94b2-332b0b5772be",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 5
+  },
+  "33b51c28-4fc3-4304-9258-6b47566891fa": {
+    "product_id": "33b51c28-4fc3-4304-9258-6b47566891fa",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "5062c7a6-17b7-462f-afe7-c2221fe551be": {
+    "product_id": "5062c7a6-17b7-462f-afe7-c2221fe551be",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "56900451-33ae-4ba7-b4ec-e7591405831f": {
+    "product_id": "56900451-33ae-4ba7-b4ec-e7591405831f",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "e971d1d9-bc43-4f5e-b7da-2cc518f37169": {
+    "product_id": "e971d1d9-bc43-4f5e-b7da-2cc518f37169",
+    "name": "Speaker",
+    "description": "Bluetooth Speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "d04eba9b-4072-4397-9d4d-7953e6f16245": {
+    "product_id": "d04eba9b-4072-4397-9d4d-7953e6f16245",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "4467a757-1843-43e8-b817-a9ec9517e104": {
+    "product_id": "4467a757-1843-43e8-b817-a9ec9517e104",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "441384a7-3e33-44f9-9d4d-c89de0484549": {
+    "product_id": "441384a7-3e33-44f9-9d4d-c89de0484549",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "cdd8ad1e-976e-4e45-a789-c19a23536fac": {
+    "product_id": "cdd8ad1e-976e-4e45-a789-c19a23536fac",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "b2960e9a-d8b9-44f0-a197-5b029382df6f": {
+    "product_id": "b2960e9a-d8b9-44f0-a197-5b029382df6f",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "85f4a72f-9404-4941-a9f8-f61b9ff8018a": {
+    "product_id": "85f4a72f-9404-4941-a9f8-f61b9ff8018a",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "d4483663-8410-4504-b0cb-13b614924ee1": {
+    "product_id": "d4483663-8410-4504-b0cb-13b614924ee1",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "b64a4fe2-115e-4aa7-bfe6-a91c48c9b21a": {
+    "product_id": "b64a4fe2-115e-4aa7-bfe6-a91c48c9b21a",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "305dd822-34e7-4db5-a6da-529c791f099b": {
+    "product_id": "305dd822-34e7-4db5-a6da-529c791f099b",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 5
+  },
+  "2a3b1273-4607-453f-8170-71d8c08ec27e": {
+    "product_id": "2a3b1273-4607-453f-8170-71d8c08ec27e",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "cb6bdc41-3891-4e4b-8011-cc37ca818cb9": {
+    "product_id": "cb6bdc41-3891-4e4b-8011-cc37ca818cb9",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "1541c889-ae9d-4a55-b011-6e765350f042": {
+    "product_id": "1541c889-ae9d-4a55-b011-6e765350f042",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "1253f791-3356-4ff7-95e0-7e6b8b11c88d": {
+    "product_id": "1253f791-3356-4ff7-95e0-7e6b8b11c88d",
+    "name": "Speaker",
+    "description": "Bluetooth Speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "505e7197-c9a3-44ee-977e-d304d35f8861": {
+    "product_id": "505e7197-c9a3-44ee-977e-d304d35f8861",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "2d850690-5c01-4d3c-b3d6-a221c28b4ff7": {
+    "product_id": "2d850690-5c01-4d3c-b3d6-a221c28b4ff7",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "595b16ad-081b-423a-91bc-10ee72b66181": {
+    "product_id": "595b16ad-081b-423a-91bc-10ee72b66181",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "7214d0c8-0d0d-4f54-a498-7447fbf77b17": {
+    "product_id": "7214d0c8-0d0d-4f54-a498-7447fbf77b17",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "55f8b16a-1f9e-49b2-a767-1fb2198e1e31": {
+    "product_id": "55f8b16a-1f9e-49b2-a767-1fb2198e1e31",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "755d44c8-f7ab-4942-88df-3668b1edd1bc": {
+    "product_id": "755d44c8-f7ab-4942-88df-3668b1edd1bc",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "bf2fce84-9f27-4474-b0db-90d9a902355a": {
+    "product_id": "bf2fce84-9f27-4474-b0db-90d9a902355a",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "9731f427-26ba-45d9-9025-6a59403f4920": {
+    "product_id": "9731f427-26ba-45d9-9025-6a59403f4920",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "c7293bc0-889b-407d-8750-dc145a417f44": {
+    "product_id": "c7293bc0-889b-407d-8750-dc145a417f44",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 5
+  },
+  "4ffc565d-8745-4557-b4ab-1e0559d377e5": {
+    "product_id": "4ffc565d-8745-4557-b4ab-1e0559d377e5",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "1825ed4e-2e39-49b2-b040-6dafd3cf107b": {
+    "product_id": "1825ed4e-2e39-49b2-b040-6dafd3cf107b",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "064f3b0b-e8ed-437d-9db6-e45489cc97c1": {
+    "product_id": "064f3b0b-e8ed-437d-9db6-e45489cc97c1",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "90a88579-d2d5-417c-b0ab-e87c8fceee59": {
+    "product_id": "90a88579-d2d5-417c-b0ab-e87c8fceee59",
+    "name": "Speaker",
+    "description": "Bluetooth Speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "2440078b-4420-4887-9dd2-8e3861b8c732": {
+    "product_id": "2440078b-4420-4887-9dd2-8e3861b8c732",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "b717ae71-e645-4dcf-9f9b-2521963d97e1": {
+    "product_id": "b717ae71-e645-4dcf-9f9b-2521963d97e1",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "c827ddd8-f375-48cb-88c1-6aa4e199f50f": {
+    "product_id": "c827ddd8-f375-48cb-88c1-6aa4e199f50f",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "8ae844e3-e7d2-492e-aae7-d153fb32ae4b": {
+    "product_id": "8ae844e3-e7d2-492e-aae7-d153fb32ae4b",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "a7f6543d-6184-4191-b721-5243b2a60664": {
+    "product_id": "a7f6543d-6184-4191-b721-5243b2a60664",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "f50f59a3-1ece-49e2-9ef1-8ea973f534b0": {
+    "product_id": "f50f59a3-1ece-49e2-9ef1-8ea973f534b0",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "bbef0a66-238f-4b7a-92d7-a75eddcd9c31": {
+    "product_id": "bbef0a66-238f-4b7a-92d7-a75eddcd9c31",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "e64f8999-198b-416d-a19c-0e85e50a0d82": {
+    "product_id": "e64f8999-198b-416d-a19c-0e85e50a0d82",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "593d6da0-e032-4db9-a57e-eb2767961f35": {
+    "product_id": "593d6da0-e032-4db9-a57e-eb2767961f35",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 5
+  },
+  "9fd437f7-54dd-4339-bdf1-4a721302a9a6": {
+    "product_id": "9fd437f7-54dd-4339-bdf1-4a721302a9a6",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "baabeb18-13f4-49f0-8129-b2f1095be6ab": {
+    "product_id": "baabeb18-13f4-49f0-8129-b2f1095be6ab",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "f69a1011-3929-4a23-98f9-356478c8d1a2": {
+    "product_id": "f69a1011-3929-4a23-98f9-356478c8d1a2",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "284d900e-e319-44ae-bfb6-987f79026dd9": {
+    "product_id": "284d900e-e319-44ae-bfb6-987f79026dd9",
+    "name": "Speaker",
+    "description": "Bluetooth Speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "a95751c1-3a40-452f-984f-82c81aef2ec3": {
+    "product_id": "a95751c1-3a40-452f-984f-82c81aef2ec3",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "81942343-1a35-44de-b618-8c55a73c59e5": {
+    "product_id": "81942343-1a35-44de-b618-8c55a73c59e5",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "6c2044cf-c161-4aa0-9deb-9281f59635ea": {
+    "product_id": "6c2044cf-c161-4aa0-9deb-9281f59635ea",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "a9557c17-63eb-494e-83e0-9bef2f9d9bb6": {
+    "product_id": "a9557c17-63eb-494e-83e0-9bef2f9d9bb6",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  },
+  "627086e3-8ee6-4e63-a157-2468bf301d30": {
+    "product_id": "627086e3-8ee6-4e63-a157-2468bf301d30",
+    "name": "Laptop",
+    "description": "High-end laptop",
+    "price": 1200.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "6d1ccf98-00db-425f-8e0e-1bac72817b7b": {
+    "product_id": "6d1ccf98-00db-425f-8e0e-1bac72817b7b",
+    "name": "TV",
+    "description": "Smart TV",
+    "price": 500.0,
+    "category_id": "cat2",
+    "stock_quantity": 2
+  },
+  "fd1629e0-1e71-419a-946c-a46ed7f2657b": {
+    "product_id": "fd1629e0-1e71-419a-946c-a46ed7f2657b",
+    "name": "Phone",
+    "description": "Smartphone",
+    "price": 800.0,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "25386800-3964-4b1e-a33b-d2175906b5d1": {
+    "product_id": "25386800-3964-4b1e-a33b-d2175906b5d1",
+    "name": "Tablet",
+    "description": "Android tablet",
+    "price": 300.0,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "0fd5276f-0b60-4268-a23d-980334fa860c": {
+    "product_id": "0fd5276f-0b60-4268-a23d-980334fa860c",
+    "name": "Monitor",
+    "description": "HD Monitor",
+    "price": 200.0,
+    "category_id": "cat2",
+    "stock_quantity": 5
+  },
+  "3813aca2-1134-4c24-bef4-bbd8f94d366a": {
+    "product_id": "3813aca2-1134-4c24-bef4-bbd8f94d366a",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "311bfe54-47de-4d1b-9dea-6299a2f671c5": {
+    "product_id": "311bfe54-47de-4d1b-9dea-6299a2f671c5",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "af39c01f-927d-4182-8840-374bd491c5c3": {
+    "product_id": "af39c01f-927d-4182-8840-374bd491c5c3",
+    "name": "Mouse",
+    "description": "Wireless Mouse",
+    "price": 50.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "2d891989-c971-4e85-90e8-7ddd431b72cb": {
+    "product_id": "2d891989-c971-4e85-90e8-7ddd431b72cb",
+    "name": "Speaker",
+    "description": "Bluetooth Speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 9
+  },
+  "835159a9-2b58-4ad0-a4a7-e068eb9b438b": {
+    "product_id": "835159a9-2b58-4ad0-a4a7-e068eb9b438b",
+    "name": "Camera",
+    "description": "DSLR Camera",
+    "price": 900.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "f2691f59-8b18-4dfe-836c-c5bfa0557264": {
+    "product_id": "f2691f59-8b18-4dfe-836c-c5bfa0557264",
+    "name": "Speaker",
+    "description": "Bluetooth speaker",
+    "price": 100.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "71507add-754d-465d-ae86-14ccea515a6b": {
+    "product_id": "71507add-754d-465d-ae86-14ccea515a6b",
+    "name": "Keyboard",
+    "description": "Mechanical Keyboard",
+    "price": 70.0,
+    "category_id": "cat2",
+    "stock_quantity": 10
+  },
+  "bc5b1a8f-dcf5-43ba-b237-4136f895025b": {
+    "product_id": "bc5b1a8f-dcf5-43ba-b237-4136f895025b",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse",
+    "price": 80.0,
+    "category_id": "cat2",
+    "stock_quantity": 50
+  }
+}

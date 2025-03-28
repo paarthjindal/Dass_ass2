@@ -58,7 +58,7 @@
     "order_id": "order-1741289725-9938",
     "customer_id": "166bddbe-1d61-48a2-91a1-e70de8ef3a6d",
     "restaurant_id": "480088bb-a797-477d-b834-c496f6248355",
-    "status": "Delivered",
+    "status": "Placed",
     "order_type": "Home Delivery",
     "delivery_agent_id": "81f09406-0e4c-4f8f-af95-df197285d72a",
     "placed_time": "2025-03-07T01:05:25.890726",

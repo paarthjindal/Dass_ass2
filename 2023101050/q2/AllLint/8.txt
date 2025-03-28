@@ -1,0 +1,45 @@
+pylint gobblet.py
+************* Module gobblet
+gobblet.py:282:0: C0301: Line too long (128/100) (line-too-long)
+gobblet.py:79:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:94:0: C0115: Missing class docstring (missing-class-docstring)
+gobblet.py:94:0: R0902: Too many instance attributes (12/7) (too-many-instance-attributes)
+gobblet.py:130:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:135:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:147:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:149:8: W0612: Unused variable 'current_player_color' (unused-variable)
+gobblet.py:180:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:180:4: R0912: Too many branches (24/12) (too-many-branches)
+gobblet.py:180:61: W0613: Unused argument 'to_row' (unused-argument)
+gobblet.py:180:69: W0613: Unused argument 'to_col' (unused-argument)
+gobblet.py:248:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:286:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:311:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:319:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:334:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:334:4: R0914: Too many local variables (18/15) (too-many-locals)
+gobblet.py:346:8: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+gobblet.py:334:4: R0912: Too many branches (20/12) (too-many-branches)
+gobblet.py:348:20: W0612: Unused variable 'j' (unused-variable)
+gobblet.py:391:20: W0612: Unused variable 'x' (unused-variable)
+gobblet.py:392:20: W0612: Unused variable 'y' (unused-variable)
+gobblet.py:416:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:416:4: R0914: Too many local variables (26/15) (too-many-locals)
+gobblet.py:547:61: E0606: Possibly using variable 'text_color' before assignment (possibly-used-before-assignment)
+gobblet.py:416:4: R0912: Too many branches (19/12) (too-many-branches)
+gobblet.py:416:4: R0915: Too many statements (74/50) (too-many-statements)
+gobblet.py:494:12: W0612: Unused variable 'piece_offset' (unused-variable)
+gobblet.py:566:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:9:0: W0611: Unused import os (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.00/10 (previous run: 8.70/10, +0.30)
+
+
+i have defined the undefined variables in the init function
+def __init__(self):
+    # Existing code...
+    self.selected_piece = None
+    self.valid_moves = []
+    self.last_move = None
+    self.current_state = GameState.PLAYER_RED

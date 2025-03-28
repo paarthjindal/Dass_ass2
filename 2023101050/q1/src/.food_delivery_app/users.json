@@ -20,11 +20,10 @@
     "email": "mike@delivery.com",
     "role": "Delivery Agent",
     "available": true,
-    "current_order": null,
+    "current_order": "order-1741289725-9938",
     "completed_deliveries": [
       "order-1741184020-3354",
-      "order-1741191647-7072",
-      "order-1741289725-9938"
+      "order-1741191647-7072"
     ]
   },
   "53abb8d8-a5b5-4615-9f3b-8a416d6e1439": {

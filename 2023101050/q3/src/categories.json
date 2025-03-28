@@ -1,0 +1,27 @@
+{
+  "cat1": {
+    "category_id": "cat1",
+    "name": "Groceries",
+    "description": "Food and household items"
+  },
+  "cat2": {
+    "category_id": "cat2",
+    "name": "Electronics",
+    "description": "Electronic devices and accessories"
+  },
+  "cat3": {
+    "category_id": "cat3",
+    "name": "Personal Care",
+    "description": "Health and beauty products"
+  },
+  "cat4": {
+    "category_id": "cat4",
+    "name": "Home & Kitchen",
+    "description": "Home appliances and kitchen supplies"
+  },
+  "cat5": {
+    "category_id": "cat5",
+    "name": "Clothing",
+    "description": "Fashion and apparel"
+  }
+}

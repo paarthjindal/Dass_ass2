@@ -1,0 +1,226 @@
+{
+  "p1": {
+    "product_id": "p1",
+    "name": "Milk",
+    "description": "1 gallon whole milk",
+    "price": 3.99,
+    "category_id": "cat1",
+    "stock_quantity": 97
+  },
+  "p2": {
+    "product_id": "p2",
+    "name": "Bread",
+    "description": "Whole wheat bread loaf",
+    "price": 2.49,
+    "category_id": "cat1",
+    "stock_quantity": 75
+  },
+  "p3": {
+    "product_id": "p3",
+    "name": "Eggs",
+    "description": "Dozen large eggs",
+    "price": 2.99,
+    "category_id": "cat1",
+    "stock_quantity": 50
+  },
+  "p4": {
+    "product_id": "p4",
+    "name": "Headphones",
+    "description": "Wireless bluetooth headphones",
+    "price": 49.99,
+    "category_id": "cat2",
+    "stock_quantity": 20
+  },
+  "p5": {
+    "product_id": "p5",
+    "name": "USB Cable",
+    "description": "6ft USB-C charging cable",
+    "price": 12.99,
+    "category_id": "cat2",
+    "stock_quantity": 30
+  },
+  "p6": {
+    "product_id": "p6",
+    "name": "Power Bank",
+    "description": "10000mAh portable charger",
+    "price": 29.99,
+    "category_id": "cat2",
+    "stock_quantity": 15
+  },
+  "p10": {
+    "product_id": "p10",
+    "name": "Smart Speaker",
+    "description": "Voice-controlled smart speaker",
+    "price": 89.99,
+    "category_id": "cat2",
+    "stock_quantity": 12
+  },
+  "p11": {
+    "product_id": "p11",
+    "name": "Webcam",
+    "description": "HD webcam for video calls",
+    "price": 59.99,
+    "category_id": "cat2",
+    "stock_quantity": 18
+  },
+  "p12": {
+    "product_id": "p12",
+    "name": "Mouse",
+    "description": "Wireless ergonomic computer mouse",
+    "price": 24.99,
+    "category_id": "cat2",
+    "stock_quantity": 25
+  },
+  "p13": {
+    "product_id": "p13",
+    "name": "Shampoo",
+    "description": "Daily moisturizing shampoo",
+    "price": 5.99,
+    "category_id": "cat3",
+    "stock_quantity": 40
+  },
+  "p14": {
+    "product_id": "p14",
+    "name": "Toothpaste",
+    "description": "Mint flavor toothpaste",
+    "price": 3.49,
+    "category_id": "cat3",
+    "stock_quantity": 60
+  },
+  "p15": {
+    "product_id": "p15",
+    "name": "Soap",
+    "description": "Pack of 4 bath soap bars",
+    "price": 4.99,
+    "category_id": "cat3",
+    "stock_quantity": 45
+  },
+  "p16": {
+    "product_id": "p16",
+    "name": "Face Wash",
+    "description": "Gentle cleansing face wash",
+    "price": 7.99,
+    "category_id": "cat3",
+    "stock_quantity": 35
+  },
+  "p17": {
+    "product_id": "p17",
+    "name": "Hand Sanitizer",
+    "description": "8oz antibacterial hand sanitizer",
+    "price": 3.99,
+    "category_id": "cat3",
+    "stock_quantity": 70
+  },
+  "p18": {
+    "product_id": "p18",
+    "name": "Lotion",
+    "description": "Daily moisturizing body lotion",
+    "price": 6.99,
+    "category_id": "cat3",
+    "stock_quantity": 30
+  },
+  "p19": {
+    "product_id": "p19",
+    "name": "Coffee Maker",
+    "description": "12-cup programmable coffee maker",
+    "price": 34.99,
+    "category_id": "cat4",
+    "stock_quantity": 15
+  },
+  "p20": {
+    "product_id": "p20",
+    "name": "Toaster",
+    "description": "2-slice stainless steel toaster",
+    "price": 24.99,
+    "category_id": "cat4",
+    "stock_quantity": 20
+  },
+  "p21": {
+    "product_id": "p21",
+    "name": "Blender",
+    "description": "Countertop blender with multiple speeds",
+    "price": 49.99,
+    "category_id": "cat4",
+    "stock_quantity": 12
+  },
+  "p22": {
+    "product_id": "p22",
+    "name": "Cutting Board",
+    "description": "Bamboo cutting board set",
+    "price": 19.99,
+    "category_id": "cat4",
+    "stock_quantity": 25
+  },
+  "p23": {
+    "product_id": "p23",
+    "name": "Cookware Set",
+    "description": "10-piece non-stick cookware set",
+    "price": 79.99,
+    "category_id": "cat4",
+    "stock_quantity": 10
+  },
+  "p24": {
+    "product_id": "p24",
+    "name": "Utensil Set",
+    "description": "Kitchen utensil set with holder",
+    "price": 15.99,
+    "category_id": "cat4",
+    "stock_quantity": 30
+  },
+  "p25": {
+    "product_id": "p25",
+    "name": "T-Shirt",
+    "description": "Cotton crew neck t-shirt",
+    "price": 14.99,
+    "category_id": "cat5",
+    "stock_quantity": 50
+  },
+  "p26": {
+    "product_id": "p26",
+    "name": "Jeans",
+    "description": "Classic fit denim jeans",
+    "price": 29.99,
+    "category_id": "cat5",
+    "stock_quantity": 35
+  },
+  "p27": {
+    "product_id": "p27",
+    "name": "Socks",
+    "description": "Pack of 6 crew socks",
+    "price": 12.99,
+    "category_id": "cat5",
+    "stock_quantity": 60
+  },
+  "p28": {
+    "product_id": "p28",
+    "name": "Sweater",
+    "description": "Wool-blend pullover sweater",
+    "price": 34.99,
+    "category_id": "cat5",
+    "stock_quantity": 25
+  },
+  "p29": {
+    "product_id": "p29",
+    "name": "Hat",
+    "description": "Adjustable baseball cap",
+    "price": 16.99,
+    "category_id": "cat5",
+    "stock_quantity": 40
+  },
+  "p30": {
+    "product_id": "p30",
+    "name": "Gloves",
+    "description": "Touchscreen compatible winter gloves",
+    "price": 14.99,
+    "category_id": "cat5",
+    "stock_quantity": 30
+  },
+  "25c988cf-2bde-40a8-a099-425be94ca4f2": {
+    "product_id": "25c988cf-2bde-40a8-a099-425be94ca4f2",
+    "name": "Pencil",
+    "description": "to write",
+    "price": 2.0,
+    "category_id": "cat1",
+    "stock_quantity": 10
+  }
+}

@@ -1,0 +1,40 @@
+ pylint gobblet.py
+************* Module gobblet
+gobblet.py:283:0: C0301: Line too long (128/100) (line-too-long)
+gobblet.py:80:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:95:0: C0115: Missing class docstring (missing-class-docstring)
+gobblet.py:95:0: R0902: Too many instance attributes (12/7) (too-many-instance-attributes)
+gobblet.py:131:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:136:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:148:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:150:8: W0612: Unused variable 'current_player_color' (unused-variable)
+gobblet.py:181:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:181:61: W0613: Unused argument 'to_row' (unused-argument)
+gobblet.py:181:69: W0613: Unused argument 'to_col' (unused-argument)
+gobblet.py:249:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:287:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:312:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:320:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:335:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:335:4: R0914: Too many local variables (18/15) (too-many-locals)
+gobblet.py:347:8: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+gobblet.py:349:20: W0612: Unused variable 'j' (unused-variable)
+gobblet.py:392:20: W0612: Unused variable 'x' (unused-variable)
+gobblet.py:393:20: W0612: Unused variable 'y' (unused-variable)
+gobblet.py:417:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:417:4: R0914: Too many local variables (26/15) (too-many-locals)
+gobblet.py:548:61: E0606: Possibly using variable 'text_color' before assignment (possibly-used-before-assignment)
+gobblet.py:417:4: R0915: Too many statements (74/50) (too-many-statements)
+gobblet.py:495:12: W0612: Unused variable 'piece_offset' (unused-variable)
+gobblet.py:567:4: C0116: Missing function or method docstring (missing-function-docstring)
+gobblet.py:10:0: W0611: Unused import os (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.08/10 (previous run: 9.00/10, +0.09)
+
+
+
+by adding the line
+# pylint: disable=too-many-branches
+
+at the top of the file

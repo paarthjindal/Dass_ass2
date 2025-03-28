@@ -1,0 +1,23 @@
+ pylint gobblet.py
+************* Module gobblet
+gobblet.py:220:0: C0303: Trailing whitespace (trailing-whitespace)
+gobblet.py:104:0: R0902: Too many instance attributes (12/7) (too-many-instance-attributes)
+gobblet.py:501:4: R0914: Too many local variables (16/15) (too-many-locals)
+
+------------------------------------------------------------------
+Your code has been rated at 9.91/10 (previous run: 9.88/10, +0.03)
+
+added the line Added a pylint: disable=unused-argument directive for the would_reveal_win_for_opponent method
+to remove error
+
+
+pylint gobblet.py
+************* Module gobblet
+gobblet.py:104:0: R0902: Too many instance attributes (12/7) (too-many-instance-attributes)
+gobblet.py:500:4: R0914: Too many local variables (16/15) (too-many-locals)
+
+------------------------------------------------------------------
+Your code has been rated at 9.94/10 (previous run: 9.91/10, +0.03)
+
+
+removed the whitespaces
